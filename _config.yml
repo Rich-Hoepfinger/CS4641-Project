@@ -1,4 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
 title: Music Genre Prediction
+description: Ruwei Ma, Annette Gisella, Richard Hoepfinger, Tuan Ha, Arthur Odom
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
