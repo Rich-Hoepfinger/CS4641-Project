@@ -1,6 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
-title: Music Genre Prediction
-author: Ruwei Ma, Annette Gisella, Richard Hoepfinger, Tuan Ha, Arthur Odom
-usemathjax: true
+title: Music Genre Classification
+description: CS4641 Project: Ruwei Ma, Annette Gisella, Richard Hoepfinger, Tuan Ha, Arthur Odom
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
