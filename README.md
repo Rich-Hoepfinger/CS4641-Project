@@ -14,7 +14,7 @@ Method
 
 K-nearest neighbors  
 
-Using KNN requires a dataset of music track with their respected genres. Using the Spotify API, we have 11 different features not including genres. In order to train the model, we need to find a value for k, and a distance metric. The value of k  needs to be at least the number of genres, and the distance metric to be Euclidean distance. To evaluate the accuracy, we plan to compare the predicted and true genres.  
+Using KNN requires a dataset of music track with their respected genres. Using the Spotify API, we have 11 different features not including genres. In order to train the model, we need to find a value for $k$, and a distance metric. The value of $k$  needs to be at least the number of genres, and the distance metric to be Euclidean distance. To evaluate the accuracy, we plan to compare the predicted and true genres.  
 
 To test if a value of $k$ higher than the number of genres is better, we are going to conduct cross-validation. We choose a range of values of $k$. For each value in that range, train a different KNN model using the same training set. Evaluate each model’s performance on the test set and record the evaluation metrics. The better value of $k$ would be one that produced the optimal performance on the validation set.   
 
