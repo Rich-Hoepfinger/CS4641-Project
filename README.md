@@ -27,12 +27,12 @@ In addition to matching songs to the genre baseline, trends can also be discover
 
 
 Metrics from sickit learn : 
-1. Accuracy_score : this can be used to verify how accurate the classification model is in correctly identifying the music genres across the whole sample
-- Return : number of correct positives / whole sample
-2. Recall_score : this can be used to show how many genre classifications were predicted correctly out of all correct samples
-- Return : true positives / (true positives + false negatives)
-3. Precision_score : this can be used to reveal how many genre matches were actually of the correct genre, and was not a false positive
-- Return : true positives / (true positives + false positives)
+- Accuracy_score : this can be used to verify how accurate the classification model is in correctly identifying the music genres across the whole sample
+  - Return : number of correct positives / whole sample
+- Recall_score : this can be used to show how many genre classifications were predicted correctly out of all correct samples
+  - Return : true positives / (true positives + false negatives)
+- Precision_score : this can be used to reveal how many genre matches were actually of the correct genre, and was not a false positive
+  - Return : true positives / (true positives + false positives)
 
 
 ## Project Contributors
