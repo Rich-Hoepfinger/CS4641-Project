@@ -5,15 +5,14 @@ More than 81% of Spotify listeners list personalization or discoverability as th
 ## Problem Definition  
 Despite this, music genre classification remains a challenging task because of the subjective nature of music genres, varying across cultures and time periods, and the wide variety of sub and hybrid genres.
 
-The goal of this project is to employ deep learning in genre classification using Spotify metadata. Unlike classical machine learning methods, deep learning is better suited to capture complexities in large amounts of data, allowing for more thorough and reliable classification of musical genres [[5]](#references). 
+The goal of this project is to employ deep learning in genre classification using Spotify metadata.
+
+## Method  
+Unlike classical machine learning methods, deep learning is better suited to capture complexities in large amounts of data, allowing for more thorough and reliable classification of musical genres [[5]](#references). 
 
 We will create our own dataset by making requests to the Spotify API [[6]](#references). Features we will gather include: ID, title, artist, genre, year, bpm, energy, danceability, loudness (dB), valence, length, acousticity, speechiness, and popularity. We aim to obtain a balanced representation of around 10 genres, each having at least 500 data points.
 
-## Method  
-
-**Convolutional Neural Networks**  
-
-We will mainly use convolutional neural networks (CNN) for our project: 
+We will mainly use **convolutional neural networks (CNN)** for our project: 
 1. Preprocess the data by normalizing the numeric features to a universal scale. Identify outliers using DB-SCAN. Then, the data is split into training, validation, and testing sets.
 2. Build the CNN model. Select an appropriate architecture, and specify the number and size of the layers. We might use techniques such as dropout to prevent overfitting.
 3. Train the model. Here, the model will adjust its weights to minimize the categorical cross-entropy loss over the training set, penalizing low probability assignments to the true labels.
@@ -46,9 +45,9 @@ reveals how many genre matches were actually of the correct genre, and was not a
 
 <iframe width="1080" height="920" frameborder="0" allowfullscreen="true" src="https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110979405002483791203&rtpof=true&sd=true" title="description"></iframe>
 
-[Hyperlink to Google Drive](https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110632432805448997773&rtpof=true&sd=true)
+![Gantt Chart Overview](./gaantChartScreenshot.png "Gantt Chart Overview")
 
-![Screenshot of Gaant Chartchart for those who don't like links](./gaantChartScreenshot.png "A screenshot for your convenience")
+[Hyperlink to Google Drive](https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110632432805448997773&rtpof=true&sd=true)
 
 All M2 tasks have 6 days extra, all M3 tasks have 14 days. This is so the schedule doesn't explode the minutes we miss a deadline.
 
