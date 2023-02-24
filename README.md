@@ -26,7 +26,7 @@
 ## Gantt Chart
 
 ## References
-1.  https://newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/  
-2.  https://d3.harvard.edu/platform-digit/submission/spotify-how-data-is-used-to-enhance-your-listening-experience/#:~:text=Using%20CNN%2C%20Spotify%20analyzes%20raw,further%20optimize%20its%20recommendation%20engine.  
-3.  A. Kumar, A. Rajpal and D. Rathore, "Genre Classification using Feature Extraction and Deep Learning Techniques," 2018 10th International Conference on Knowledge and Systems Engineering (KSE), Ho Chi Minh City, Vietnam, 2018, pp. 175-180, doi: 10.1109/KSE.2018.8573325. https://ieeexplore.ieee.org/document/8573325  
+1.  “Spotify Shares Our Vision to Become the World’s Creator Platform.” Spotify, 8 June 2022, [newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/.](https://newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/)
+2.  Tebuev, Alan. “Spotify - How Data Is Used to Enhance Your Listening Experience.” Digital Innovation and Transformation, Harvard Business School, 27 Mar. 2022, [d3.harvard.edu/platform-digit/submission/spotify-how-data-is-used-to-enhance-your-listening-experience/#:~:text=Using%20CNN%2C%20Spotify%20analyzes%20raw.](https://d3.harvard.edu/platform-digit/submission/spotify-how-data-is-used-to-enhance-your-listening-experience/#:~:text=Using%20CNN%2C%20Spotify%20analyzes%20raw,further%20optimize%20its%20recommendation%20engine)  
+3.  A. Kumar, A. Rajpal and D. Rathore, "Genre Classification using Feature Extraction and Deep Learning Techniques," 2018 10th International Conference on Knowledge and Systems Engineering (KSE), Ho Chi Minh City, Vietnam, 2018, pp. 175-180, doi: [10.1109/KSE.2018.8573325.](https://ieeexplore.ieee.org/document/8573325)
 4. (dataset) https://www.kaggle.com/datasets/iamsumat/spotify-top-2000s-mega-dataset/discussion/246253?resource=download
