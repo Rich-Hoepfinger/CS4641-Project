@@ -44,7 +44,7 @@ reveals how many genre matches were actually of the correct genre, and was not a
 
 ## Gantt Chart
 
-<iframe width="100%" height="100%" frameborder="0" src="https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110979405002483791203&rtpof=true&sd=true" title="description"></iframe>
+<iframe width="1080" height="920" frameborder="0" allowfullscreen="true" src="https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110979405002483791203&rtpof=true&sd=true" title="description"></iframe>
 
 [Hyperlink to Google Drive](https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110632432805448997773&rtpof=true&sd=true)
 
