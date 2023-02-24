@@ -17,7 +17,7 @@ We will mainly use **convolutional neural networks (CNN)** for our project:
 4. Evaluate the model’s performance on the validation and testing sets. If unsatisfactory, we will tune its hyperparameters and retrain the model until the desired performance is achieved. 
 
 
-## Potential results and Discussion
+## Potential Results and Discussion
 
 A general baseline can be created for each genre, containing a standard value for each of the features. A song can be tested against these baselines to see how likely it matches with that genre. In addition to this, trends can also be discovered. The year and popularity of each song is recorded and those metrics can reveal trends in the music industry.
 
