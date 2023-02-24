@@ -9,9 +9,31 @@
 
 ## Method  
 
-**K-nearest neighbors**  
-  Using KNN requires a dataset of music track with their respected genres. Using the Spotify API, we have 11 different features not including genres. In order to train the model, we need to find a value for $k$, and a distance metric. The value of $k$  needs to be at least the number of genres, and the distance metric to be Euclidean distance. To evaluate the accuracy, we plan to compare the predicted and true genres.  
-  To test if a value of $k$ higher than the number of genres is better, we are going to conduct cross-validation. We choose a range of values of $k$. For each value in that range, train a different KNN model using the same training set. Evaluate each model’s performance on the test set and record the evaluation metrics. The better value of $k$ would be one that produced the optimal performance on the validation set.   
+**Convolutional Neural Networks**  
+
+We will majorly use convolutional neural networks (CNN) for our project. We will first preprocess our data by normalizing the numeric features to a universal scale. Then, we split the data into training, validation, and testing sets. Outliers will also be identified in preprocessing using DB-SCAN.
+
+We will subsequently build the CNN model. This process involves selecting an appropriate architecture, and specifying the number and size of the layers. We might use techniques such as dropout or batch normalization to improve performance and prevent overfitting.
+
+The next step is to train the model using the training set. In this stage, the model will adjust its weights to minimize the categorical cross-entropy loss over the training set, penalizing the model for assigning low probability to the true label.
+
+After training the model, we will evaluate its performance on the validation and testing sets. If unsatisfactory, we will tune its hyperparameters, and retrain the model until the desired performance is achieved. 
+
+## Potential results and Discussion
+
+A general baseline can be created for each of the general genres of music (pop, rock, hip-hop, etc). The baseline contains a standard value for each of the features, and a song can be tested to see how likely it matches with that genre. Songs that match to a genre can be used for the audience of that genre. 
+
+In addition to matching songs to the genre baseline, trends can also be discovered. The year and popularity of each song is recorded and those metrics can reveal trends in the music industry.
+
+
+Metrics from sickit learn : 
+- Accuracy_score : this can be used to verify how accurate the classification model is in correctly identifying the music genres across the whole sample
+  - Return : number of correct positives / whole sample
+- Recall_score : this can be used to show how many genre classifications were predicted correctly out of all correct samples
+  - Return : true positives / (true positives + false negatives)
+- Precision_score : this can be used to reveal how many genre matches were actually of the correct genre, and was not a false positive
+  - Return : true positives / (true positives + false positives)
+
 
 ## Project Contributors
 
