@@ -27,6 +27,8 @@
 
 [Hyperlink to Google Drive](https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110632432805448997773&rtpof=true&sd=true)
 
+![Screenshot of Gaant Chartchart for those who don't like links](/gaantChartScreenshot.png "A screenshot for your convenience")
+
 ## References
 1.  “Spotify Shares Our Vision to Become the World’s Creator Platform.” Spotify, 8 June 2022, [newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/.](https://newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/)
 2.  Tebuev, Alan. “Spotify - How Data Is Used to Enhance Your Listening Experience.” Digital Innovation and Transformation, Harvard Business School, 27 Mar. 2022, [d3.harvard.edu/platform-digit/submission/spotify-how-data-is-used-to-enhance-your-listening-experience/#:~:text=Using%20CNN%2C%20Spotify%20analyzes%20raw.](https://d3.harvard.edu/platform-digit/submission/spotify-how-data-is-used-to-enhance-your-listening-experience/#:~:text=Using%20CNN%2C%20Spotify%20analyzes%20raw,further%20optimize%20its%20recommendation%20engine)  
