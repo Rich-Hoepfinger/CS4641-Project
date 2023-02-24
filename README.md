@@ -48,7 +48,7 @@ reveals how many genre matches were actually of the correct genre, and was not a
 
 [Hyperlink to Google Drive](https://docs.google.com/spreadsheets/d/1l8K8Aj34vmP7cY6OAWpWX1UIrCkKELlk/edit?usp=sharing&ouid=110632432805448997773&rtpof=true&sd=true)
 
-![Screenshot of Gaant Chartchart for those who don't like links](/gaantChartScreenshot.png "A screenshot for your convenience")
+![Screenshot of Gaant Chartchart for those who don't like links](./gaantChartScreenshot.png "A screenshot for your convenience")
 
 All M2 tasks have 6 days extra, all M3 tasks have 14 days. This is so the schedule doesn't explode the minutes we miss a deadline.
 
