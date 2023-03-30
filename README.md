@@ -14,6 +14,9 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
 
+## Exploratory Data Visualization
+<iframe src="graphdisplay.html" width="800" height="500"></iframe>
+
 ## Method  
 Unlike classical machine learning methods, deep learning is better suited to capture complexities in large amounts of data, allowing for more thorough and reliable classification of musical genres [[5]](#references). 
 
@@ -54,8 +57,6 @@ reveals how many genre matches were actually of the correct genre, and was not a
 ![Gantt Chart Overview](./gaantChartScreenshot.png "Gantt Chart Overview")
 
 All M2 tasks have 6 days extra, all M3 tasks have 14 days. This is so the schedule doesn't explode the minutes we miss a deadline.
-
-<iframe src="graphdisplay.html" width="500" height="300"></iframe>
 
 ## References
 
