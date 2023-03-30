@@ -48,6 +48,8 @@ reveals how many genre matches were actually of the correct genre, and was not a
 
 All M2 tasks have 6 days extra, all M3 tasks have 14 days. This is so the schedule doesn't explode the minutes we miss a deadline.
 
+<iframe src="graphdisplay.html" width="500" height="300"></iframe>
+
 ## References
 
 1. [Spotify. (2022, June 8). Spotify Shares Our Vision To Become the World’s Creator Platform. Spotify Newsroom.](https://newsroom.spotify.com/2022-06-08/spotify-shares-our-vision-to-become-the-worlds-creator-platform/)
