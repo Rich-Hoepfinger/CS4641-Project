@@ -5,10 +5,20 @@ More than 81% of Spotify listeners list personalization or discoverability as th
 ## Problem Definition  
 Despite this, music genre classification remains a challenging task because of the subjective nature of music genres, varying across cultures and time periods, and the wide variety of sub and hybrid genres. The goal of this project is to employ deep learning in genre classification using Spotify metadata.
 
+## Data Collection
+First, the team created a comprehensive list of genres to be used as classification labels. After some discussion, the team agreed on the following list of 12 genres: Pop, Hip Hop, Rock, Country, Dance/Electronic, R&B, Metal, Jazz, Reggae, Disco, Folk, Orchestral.
+
+The next step is to generate Spotify playlists of around 500 tracks for each of the chosen genres. Each genre was assigned to a team member who would be responsible for compiling tracks that belong to that genre. The created playlists can be found here: [Pop](https://open.spotify.com/playlist/13Cm1hem9RE4v2ZOMJv34T?si=C9qRRpOQT4-tIqZlzERd6w&app_destination=copy-link), [Hip Hop](https://open.spotify.com/playlist/5K9FlaF7V8Ib4X09rl23w6?si=XnauqM5BTiiqvp88B1bDwA&app_destination=copy-link), [Rock](https://open.spotify.com/playlist/5Wk9TcVaNE5yCyli90HmaR?si=7e1c58897b224157), [Country](https://open.spotify.com/playlist/6hjSKEoPqPLPTt3u0e9bLQ?si=0c844e194b8e467f), [Electronic](https://open.spotify.com/playlist/4ZMSlQbw13hExG4ztynNNV?si=1176e787add3496d), [R&B](https://open.spotify.com/playlist/5WJXKWvPeWA9ubmvVsMTBh?si=YQ0Hnol7Q6S7sivtxHAssA&app_destination=copy-link), [Metal](https://open.spotify.com/playlist/2mDXGVXMG4ZMQaR26iZVC7?si=2beae20751ab4364), [Jazz](https://open.spotify.com/playlist/6GrLcuf2cf8g6h8lkZ0h7H?si=3b460ce380ff4ee6), [Reggae](https://open.spotify.com/playlist/6E5Fr9QU6yAety6Y6pw11u?si=28e0d5583c814bb0), [Disco](https://open.spotify.com/playlist/15X96mpCbP1ZiX8WIBqOhO?si=ba46abbe1146480f), [Folk](https://open.spotify.com/playlist/5fEekkUMaM2Le4FL38UuKx?si=b569e2ad8a264b6b), [Orchestral](https://open.spotify.com/playlist/6HGXewRDu4sH2qy8NYnNba?si=e41039b4ee764d3d).
+
+Next, using the Spotify API and the spotipy library in Python, metadata describing each track’s audio features was extracted from the Spotify API to be used as features in the classification model [[6]](#references). These features include: popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration (in milliseconds), and time signature. This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to.
+
+Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
+
+## Exploratory Data Visualization
+<iframe src="graphdisplay.html" width="800" height="500"></iframe>
+
 ## Method  
 Unlike classical machine learning methods, deep learning is better suited to capture complexities in large amounts of data, allowing for more thorough and reliable classification of musical genres [[5]](#references). 
-
-We will create our own dataset by making requests to the Spotify API [[6]](#references). Features we will gather include: ID, title, artist, genre, year, bpm, energy, danceability, loudness (dB), valence, length, acousticity, speechiness, and popularity. We aim to obtain a balanced representation of around 10 genres, each having at least 500 data points.
 
 We will mainly use **convolutional neural networks (CNN)** for our project: 
 1. Preprocess the data by normalizing the numeric features to a universal scale. Identify outliers using DB-SCAN. Then, the data is split into training, validation, and testing sets.
@@ -47,8 +57,6 @@ reveals how many genre matches were actually of the correct genre, and was not a
 ![Gantt Chart Overview](./gaantChartScreenshot.png "Gantt Chart Overview")
 
 All M2 tasks have 6 days extra, all M3 tasks have 14 days. This is so the schedule doesn't explode the minutes we miss a deadline.
-
-<iframe src="graphdisplay.html" width="500" height="300"></iframe>
 
 ## References
 
