@@ -50,8 +50,8 @@ These values resulted in 1 cluster and removed 37 songs when applied to the data
 
 ### Exploratory Data Visualization
 Below are some visualizations of the data with outliers removed:
+<iframe src="graphdisplay.html" width="832" height="519"></iframe>
 <iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
-
 
 Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
@@ -62,7 +62,7 @@ Our dataset consists of numeric and categorical variables. Categorical variables
 3 ways to normalize the data were proposed.
 * Min-max: $(X- Xmin)/(X_{max} - X_{min})$. This ensures 0-1 scale. 
 * Z-score: $(X - mean)/std$. By one sigma from mean, ~68% of data are between 0-1.
-* Softmax: $softmax(x_i) = e^(x_i) / sum_j e^{x_j}$. A probability distribution for each class.
+* Softmax: $softmax(x_i) = e^{x_i} / \sum_j e^{x_j}$. A probability distribution for each class.
 
 For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. 
 
@@ -78,9 +78,7 @@ As a principle, variables were removed until there are no 2 variables having > 0
 
 This selection of features did not raise performance compared to DB-Scanned data though. The specific performance is reported and compared in the Metrics section. We are in the progress of trying out other feature reduction methods, like PCA and RFE from scikit-learn. We are also examining the validity of forward/backward selection and searching for available packages.
 
-## Potential Results and Discussion
-
-A general baseline can be created for each genre, containing a standard value for each of the features. A song can be tested against these baselines to see how likely it matches with that genre. In addition to this, trends can also be discovered. The year and popularity of each song is recorded and those metrics can reveal trends in the music industry.
+## Results and Discussion
 
 Metrics from scikit learn : 
 * Accuracy_score : number of correct positives / whole sample  
@@ -89,6 +87,70 @@ verifies how accurate the classification model is in correctly identifying the m
 shows how many genre classifications were predicted correctly out of all correct samples
 * Precision_score : true positives / (true positives + false positives)  
 reveals how many genre matches were actually of the correct genre, and was not a false positive
+
+
+As outlined in the methods, the two supervised learning models we chose to use were Neural Networks and K-Nearest Neighbors. Both models were trained on ~4500 songs, and it was tested against ~1500 songs. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres. 
+
+The genres were converted to labels on an interval of 0 to 11. These are the label representations : 
+|Label| Genre|
+|------|--------|
+|0   | R&B |
+|1   | Country | 
+|2   | Disco |
+|3   | Electronic |
+|4   | Folk |
+|5   | HipHop |
+|6   | Jazz |
+|7   | Metal | 
+|8   | Orchestral |
+|9   | Pop |
+|10 | Reggae | 
+|11 | Pop | 
+
+**Neural Network (Multi-layer Perceptron)**  : 
+
+After removing any outliers from the original data set, the following is the model’s prediction alongside its metrics.
+
+<iframe src="model/images/collinearity/dbNN.png" width="832" height="519"></iframe>
+
+Accuracy : 52.6%
+Precision : 52.3%
+Recall : 52.1%
+According to the metrics, about 52.6% of the songs were predicted correctly out of ~1500 songs. There were a large number of songs incorrectly predicted with no clear pattern of how similar genres were to each other.  Believing that the data set could be made cleaner, the collinearity between features were found as an attempt to remove conflicting features. After reducing the number of features, the following is model prediction and metrics. 
+
+<iframe src="model/images/collinearity/colNN.png" width="832" height="519"></iframe>
+
+Accuracy: 52.2 %
+Precision: 51.7%
+Recall: 51.8%
+Using the reduced data set resulted in similar results. This is when the model was switched to KNN.
+
+K-Nearest Neighbors : 
+Using the data set without outliers from performing DBscan, the following is the model prediction and metrics. 
+
+<iframe src="model/images/dbscan/dbKNN.png" width="832" height="519"></iframe>
+
+Accuracy : 55.6%
+Precision : 57.6% 
+Recall : 54.9%
+
+There was roughly a 3% increase in accuracy as compared to the Neural Network on the same data set. However, there is a distinct pattern. Many of the mislabeled predictions allude to the genre of country music. Besides country music, the mislabeled predictions are much more consistent. 
+
+Using the data set with reduced features, the following is the model prediction and metrics. 
+
+<iframe src="model/images/collinearity/colKNN.png" width="832" height="519"></iframe>
+
+
+Accuracy : 54% 
+Precision : 54.7% 
+Recall : 53.5%
+
+Although the accuracy was lower, the incorrect predictions align much stronger with country music. 
+
+By evaluating the two models, it is clear that using the feature reduced set in combination with KNN led to more desirable results. It indicates that the country genre shares similarities with each of the other genres. 
+
+Moving forward, collecting more data may be beneficial. The model appears to be overfitting, and more data remedy it. The amount of features can be reduced even further. Investigations will be made into how dimension reduction can be performed on a supervised data set. By collecting more data and reducing the number of dimensions, overfitting can possibly be fixed. 
+
 
 ## Project Contributors
 
