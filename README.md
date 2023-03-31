@@ -59,10 +59,10 @@ Based on the above pie chart, the removal of 37 songs did not significantly affe
 
 Our dataset consists of numeric and categorical variables. Categorical variables, like key, time signature should be kept as is. Numeric variables are mostly already min-max normalized by Spotify. The only ones left unnormalized are popularity, tempo, and duration(ms). 
 
-3 ways to normalize the data were proposed. 
-Min-max: $(X- Xmin)/(X_max - X_min)$. This ensures 0-1 scale. 
-Z-score: $(X - mean)/std$. By one sigma from mean, ~68% of data are between 0-1.
-Softmax: $softmax(x_i) = e^(x_i) / sum_j(e^(x_j))$. A probability distribution for each class.
+3 ways to normalize the data were proposed.
+* Min-max: $(X- Xmin)/(X_max - X_min)$. This ensures 0-1 scale. 
+* Z-score: $(X - mean)/std$. By one sigma from mean, ~68% of data are between 0-1.
+* Softmax: $softmax(x_i) = e^(x_i) / sum_j(e^(x_j))$. A probability distribution for each class.
 
 For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. 
 
