@@ -111,7 +111,7 @@ The genres were converted to labels on an interval of 0 to 11. These are the lab
 
 After removing any outliers from the original data set, the following is the model’s prediction alongside its metrics.
 
-<iframe src="model/images/collinearity/dbNN.png" width="832" height="519"></iframe>
+<iframe src="model/images/dbscan/dbNN.png" width="832" height="519"></iframe>
 
 Accuracy : 52.6%
 Precision : 52.3%
