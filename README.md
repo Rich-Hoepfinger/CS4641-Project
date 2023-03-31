@@ -92,20 +92,20 @@ reveals how many genre matches were actually of the correct genre, and was not a
 As outlined in the methods, the two supervised learning models we chose to use were Neural Networks and K-Nearest Neighbors. Both models were trained on ~4500 songs, and it was tested against ~1500 songs. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres. 
 
 The genres were converted to labels on an interval of 0 to 11. These are the label representations : 
-|Label| Genre|
-|------|--------|
-|0   | R&B |
-|1   | Country | 
-|2   | Disco |
-|3   | Electronic |
-|4   | Folk |
-|5   | HipHop |
-|6   | Jazz |
-|7   | Metal | 
-|8   | Orchestral |
-|9   | Pop |
-|10 | Reggae | 
-|11 | Pop | 
+| Label | Genre |
+| ---- | ------ |
+| 0 | R&B |
+| 1 | Country | 
+| 2 | Disco |
+| 3 | Electronic |
+| 4 | Folk |
+| 5 | HipHop |
+| 6 | Jazz |
+| 7 | Metal | 
+| 8 | Orchestral |
+| 9 | Pop |
+| 10 | Reggae | 
+| 11 | Rock | 
 
 **Neural Network (Multi-layer Perceptron)**  : 
 
