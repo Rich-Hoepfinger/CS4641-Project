@@ -70,11 +70,11 @@ For each method, we normalize all numeric variables. It turned out that Z-score 
 
 In order to further process the data before generating the model(s), feature reduction was attempted. As the first step to feature reduction, the correlation matrix between variables was examined. 
 
-<iframe src="Graphs/correlation_matrix_zscore.html" width="832" height="519"></iframe>
+<iframe src="Graphs/Correlation_Matrix_zscore.html" width="832" height="519"></iframe>
 
 As a principle, variables were removed until there are no 2 variables having > 0.6 positive/negative correlation with each other. Under inspection, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6. 
 
-<iframe src="Graphs/correlation_matrix_removed.html" width="832" height="519"></iframe>
+<iframe src="Graphs/Correlation_Matrix_removed.html" width="832" height="519"></iframe>
 
 This selection of features did not raise performance compared to DB-Scanned data though. The specific performance is reported and compared in the Metrics section. We are in the progress of trying out other feature reduction methods, like PCA and RFE from scikit-learn. We are also examining the validity of forward/backward selection and searching for available packages.
 
