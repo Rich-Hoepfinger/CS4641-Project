@@ -1,14 +1,14 @@
 <select id="image-dropdown" onchange="changeImage()">
-    <option value="loudness.png">Loudness</option>
-    <option value="liveness.png">Liveness</option>
-    <option value="tempo.png">Tempo</option>
+    <option value="Loudness.png">Loudness</option>
+    <option value="Liveness.png">Liveness</option>
+    <option value="Tempo.png">Tempo</option>
 </select>
 
 <script>
     function changeImage() {
       var dropdown = document.getElementById("image-dropdown");
       var image = document.getElementById("display-image");
-      var selectedImage = dropdown.value;
+      var selectedImage = dropdown.value.toLowerCase();
       image.src = "Graphs/" + selectedImage;
     }
 </script>
