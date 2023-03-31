@@ -38,7 +38,7 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
 
-### DBSCAN
+### Removing Outliers with DBSCAN
 While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. To aid in tuning the parameters, a helper method `trial_metric` was set up to test how some of Scikit-learn's various metrics affected the results, iterating across a range of values by brute force. Runs which removed <200 songs were bubble-graphed.
  
 Through trial and error the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
@@ -55,6 +55,28 @@ Below are some visualizations of the data with outliers removed:
 
 Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
+### Normalization
+
+Our dataset consists of numeric and categorical variables. Categorical variables, like key, time signature should be kept as is. Numeric variables are mostly already min-max normalized by Spotify. The only ones left unnormalized are popularity, tempo, and duration(ms). 
+
+3 ways to normalize the data were proposed. 
+Min-max: $(X- Xmin)/(X_max - X_min)$. This ensures 0-1 scale. 
+Z-score: $(X - mean)/std$. By one sigma from mean, ~68% of data are between 0-1.
+Softmax: $softmax(x_i) = e^(x_i) / sum_j(e^(x_j))$. A probability distribution for each class.
+
+For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. 
+
+### Feature Reduction
+
+In order to further process the data before generating the model(s), feature reduction was attempted. As the first step to feature reduction, the correlation matrix between variables was examined. 
+
+<iframe src="Graphs/correlation_matrix_zscore.html" width="832" height="519"></iframe>
+
+As a principle, variables were removed until there are no 2 variables having > 0.6 positive/negative correlation with each other. Under inspection, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6. 
+
+<iframe src="Graphs/correlation_matrix_removed.html" width="832" height="519"></iframe>
+
+This selection of features did not raise performance compared to DB-Scanned data though. The specific performance is reported and compared in the Metrics section. We are in the progress of trying out other feature reduction methods, like PCA and RFE from scikit-learn. We are also examining the validity of forward/backward selection and searching for available packages.
 
 ## Potential Results and Discussion
 
