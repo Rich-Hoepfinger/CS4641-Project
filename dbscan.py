@@ -63,9 +63,10 @@ class DBSCAN(object):
         Return:
             indices: (I, ) int numpy array containing the indices of all points within P's eps-neighborhood
         """
-        return np.nonzero(self.pairwise_dist(self.dataset, self.dataset[pointIndex][np.newaxis, :]) < self.eps)[0]
+        return np.nonzero(self.pairwise_dist(self.dataset, self.dataset[pointIndex][np.newaxis, :])
+ < self.eps)[0]
     
-    def pairwise_dist(x, y):
+    def pairwise_dist(self, x, y):
         """Returns the norms of every point in x against y
         
         Args:
