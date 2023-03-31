@@ -38,8 +38,22 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
 
+### DBSCAN
+While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. To aid in tuning the parameters, a helper method `trial_metric` was set up to test how some of Scikit-learn's various metrics affected the results, iterating across a range of values by brute force. Runs which removed <200 songs were bubble-graphed.
+ 
+Through trial and error the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
+ 
+![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
+ 
+The red bubbles represent removed songs - note results < 10 are multiplied by 10 - while blue crosses are runs which didn't remove any outliers.
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset. 
+
 ### Exploratory Data Visualization
+Below are some visualizations of the data with outliers removed:
 <iframe src="graphdisplay.html" width="1200" height="630"></iframe>
+<iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
+
+Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
 
 ## Potential Results and Discussion
