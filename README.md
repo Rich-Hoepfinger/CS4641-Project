@@ -50,8 +50,8 @@ These values resulted in 1 cluster and removed 37 songs when applied to the data
 
 ### Exploratory Data Visualization
 Below are some visualizations of the data with outliers removed:
-<iframe src="graphdisplay.html" width="1200" height="630"></iframe>
 <iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
+
 
 Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
