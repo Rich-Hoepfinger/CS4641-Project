@@ -92,6 +92,7 @@ reveals how many genre matches were actually of the correct genre, and was not a
 As outlined in the methods, the two supervised learning models we chose to use were Neural Networks and K-Nearest Neighbors. Both models were trained on ~4500 songs, and it was tested against ~1500 songs. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres. 
 
 The genres were converted to labels on an interval of 0 to 11. These are the label representations : 
+
 | Label | Genre |
 | ---- | ------ |
 | 0 | R&B |
@@ -116,6 +117,7 @@ After removing any outliers from the original data set, the following is the mod
 Accuracy : 52.6%
 Precision : 52.3%
 Recall : 52.1%
+
 According to the metrics, about 52.6% of the songs were predicted correctly out of ~1500 songs. There were a large number of songs incorrectly predicted with no clear pattern of how similar genres were to each other.  Believing that the data set could be made cleaner, the collinearity between features were found as an attempt to remove conflicting features. After reducing the number of features, the following is model prediction and metrics. 
 
 <iframe src="model/images/collinearity/colNN.png" width="832" height="519"></iframe>
@@ -123,6 +125,7 @@ According to the metrics, about 52.6% of the songs were predicted correctly out 
 Accuracy: 52.2 %
 Precision: 51.7%
 Recall: 51.8%
+
 Using the reduced data set resulted in similar results. This is when the model was switched to KNN.
 
 K-Nearest Neighbors : 
