@@ -3,10 +3,17 @@
 More than 81% of Spotify listeners list personalization or discoverability as their favorite feature [[1]](#references). Genre classification is crucial in this recommendation process since genres can represent shared features that comprise a user’s musical preferences. As such, Spotify analyzes both the raw audio files and metadata such as “loudness” or “danceability” to determine a song’s genre [[2]](#references). Classifiers such as K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Random Forests have commonly been used to conduct genre classification using the metadata [[3]](#references). Others have also attempted converting raw audio files into spectrogram images to be fed into a convolutional neural network (CNN) [[5]](#references).
 
 ## Problem Definition  
-Despite this, music genre classification remains a challenging task because of the subjective nature of music genres, varying across cultures and time periods, and the wide variety of sub and hybrid genres. The goal of this project is to employ deep learning in genre classification using Spotify metadata.
+Despite this, music genre classification remains a challenging task because of the subjective nature of music genres, varying across cultures and time periods, and the wide variety of sub and hybrid genres. The goal of this project is to employ deep learning and K-nearest neighborss in genre classification using Spotify metadata.
 
-## Data Collection
-First, the team created a comprehensive list of genres to be used as classification labels. After some discussion, the team agreed on the following list of 12 genres: Pop, Hip Hop, Rock, Country, Dance/Electronic, R&B, Metal, Jazz, Reggae, Disco, Folk, Orchestral.
+## Method  
+We will mainly use **neural networks** and **K-nearest neighbors (KNN)** for our project: 
+1. Preprocess the data by normalizing the numeric features to a universal scale. Identify outliers using DB-SCAN. Then, the data is split into training, validation, and testing sets.
+2. Build the model(s). Select an appropriate architecture, and specify the number and size of the layers. We might use techniques such as dropout to prevent overfitting.
+3. Train the model(s). Here, the model will adjust its weights to minimize the categorical cross-entropy loss over the training set, penalizing low probability assignments to the true labels.
+4. Evaluate and compare the model(s)’ performance on the testing set. If unsatisfactory, we will tune its hyperparameters and retrain the model until the desired performance is achieved. 
+
+### Data Collection and Duplicate Removal
+First, the team created a comprehensive list of genres to be used as classification labels. The genereated list consists of 12 genres: Pop, Hip Hop, Rock, Country, Dance/Electronic, R&B, Metal, Jazz, Reggae, Disco, Folk, Orchestral.
 
 The next step is to generate Spotify playlists of around 500 tracks for each of the chosen genres. Each genre was assigned to a team member who would be responsible for compiling tracks that belong to that genre. The created playlists can be found here: [Pop](https://open.spotify.com/playlist/13Cm1hem9RE4v2ZOMJv34T?si=C9qRRpOQT4-tIqZlzERd6w&app_destination=copy-link), [Hip Hop](https://open.spotify.com/playlist/5K9FlaF7V8Ib4X09rl23w6?si=XnauqM5BTiiqvp88B1bDwA&app_destination=copy-link), [Rock](https://open.spotify.com/playlist/5Wk9TcVaNE5yCyli90HmaR?si=7e1c58897b224157), [Country](https://open.spotify.com/playlist/6hjSKEoPqPLPTt3u0e9bLQ?si=0c844e194b8e467f), [Electronic](https://open.spotify.com/playlist/4ZMSlQbw13hExG4ztynNNV?si=1176e787add3496d), [R&B](https://open.spotify.com/playlist/5WJXKWvPeWA9ubmvVsMTBh?si=YQ0Hnol7Q6S7sivtxHAssA&app_destination=copy-link), [Metal](https://open.spotify.com/playlist/2mDXGVXMG4ZMQaR26iZVC7?si=2beae20751ab4364), [Jazz](https://open.spotify.com/playlist/6GrLcuf2cf8g6h8lkZ0h7H?si=3b460ce380ff4ee6), [Reggae](https://open.spotify.com/playlist/6E5Fr9QU6yAety6Y6pw11u?si=28e0d5583c814bb0), [Disco](https://open.spotify.com/playlist/15X96mpCbP1ZiX8WIBqOhO?si=ba46abbe1146480f), [Folk](https://open.spotify.com/playlist/5fEekkUMaM2Le4FL38UuKx?si=b569e2ad8a264b6b), [Orchestral](https://open.spotify.com/playlist/6HGXewRDu4sH2qy8NYnNba?si=e41039b4ee764d3d).
 
@@ -31,17 +38,22 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
 
-## Exploratory Data Visualization
-<iframe src="graphdisplay.html" width="832" height="519"></iframe>
+### DBSCAN
+While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. To aid in tuning the parameters, a helper method `trial_metric` was set up to test how some of Scikit-learn's various metrics affected the results, iterating across a range of values by brute force. Runs which removed <200 songs were bubble-graphed.
+ 
+Through trial and error the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
+ 
+![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
+ 
+The red bubbles represent removed songs - note results < 10 are multiplied by 10 - while blue crosses are runs which didn't remove any outliers.
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset. 
 
-## Method  
-Unlike classical machine learning methods, deep learning is better suited to capture complexities in large amounts of data, allowing for more thorough and reliable classification of musical genres [[5]](#references). 
+### Exploratory Data Visualization
+Below are some visualizations of the data with outliers removed:
+<iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
 
-We will mainly use **convolutional neural networks (CNN)** for our project: 
-1. Preprocess the data by normalizing the numeric features to a universal scale. Identify outliers using DB-SCAN. Then, the data is split into training, validation, and testing sets.
-2. Build the CNN model. Select an appropriate architecture, and specify the number and size of the layers. We might use techniques such as dropout to prevent overfitting.
-3. Train the model. Here, the model will adjust its weights to minimize the categorical cross-entropy loss over the training set, penalizing low probability assignments to the true labels.
-4. Evaluate the model’s performance on the validation and testing sets. If unsatisfactory, we will tune its hyperparameters and retrain the model until the desired performance is achieved. 
+
+Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
 
 ## Potential Results and Discussion
@@ -60,11 +72,11 @@ reveals how many genre matches were actually of the correct genre, and was not a
 
 | Member | Contributions |
 | --- | ----------- |
-| Ruwei Ma | Problem Definition, Methods, Github Pages |
-| Annette Gisella | Introduction, Github Pages, References, Problem Definition |
-| Richard Hoepfinger | Presentation, Methods, Team Communication |
-| Tuan Ha | Potential Results/Discussion, Methods |
-| Arthur Odom | Gantt Chart, Data Collection |
+| Ruwei Ma | Normalisation, Feature Reduction, Problem Definition, Discussion |
+| Annette Gisella | Data Collection, Duplicate Removal, Feature Reduction, Introduction, Discussion |
+| Richard Hoepfinger | Exploratory Data Visualization, Team Communication, Presentation, Discussion |
+| Tuan Ha | Neural Network, KNN, Results, Discussion |
+| Arthur Odom | Gantt Chart, DBSCAN, Discussion |
 
 ## Gantt Chart
 
