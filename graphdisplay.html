@@ -1,9 +1,3 @@
-<select id="image-dropdown" onchange="changeImage()">
-    <option value="Loudness.png">Loudness</option>
-    <option value="Liveness.png">Liveness</option>
-    <option value="Tempo.png">Tempo</option>
-</select>
-
 <script>
     function changeImage() {
       var dropdown = document.getElementById("image-dropdown");
@@ -13,4 +7,25 @@
     }
 </script>
 
-<img id="display-image" src="Graphs/loudness.png">
+<div>
+  <select id="image-dropdown" onchange="changeImage()">
+    <option value="popularity.png">Popularity</option>
+    <option value="danceability.png">Danceability</option>
+    <option value="energy.png">Energy</option>
+    <option value="key.png">Key</option>
+    <option value="loudness.png">Loudness</option>
+    <option value="speechiness.png">Speechiness</option>
+    <option value="acousticness.png">Acousticness</option>
+    <option value="instrumentalness.png">Instrumentalness</option>
+    <option value="liveness.png">Liveness</option>
+    <option value="valence.png">Valence</option>
+    <option value="tempo.png">Tempo</option>
+    <option value="valence.png">Valence</option>
+    <option value="duration_ms.png">Duration_ms</option>
+    <option value="time_signature.png">Time_Signature</option>
+  </select>
+  <div>
+    <img id="display-image" src="Graphs/popularity.png">
+  </div>
+</div>
+
