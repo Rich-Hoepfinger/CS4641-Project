@@ -129,7 +129,7 @@ Recall: 51.8%
 
 Using the reduced data set resulted in similar results. This is when the model was switched to KNN.
 
-K-Nearest Neighbors : 
+**K-Nearest Neighbors** : 
 Using the data set without outliers from performing DBscan, the following is the model prediction and metrics. 
 
 <iframe src="model/images/dbscan/dbKNN.png" width="832" height="519"></iframe>
@@ -149,12 +149,27 @@ Accuracy : 54%
 Precision : 54.7% 
 Recall : 53.5%
 
-Although the accuracy was lower, the incorrect predictions align much stronger with country music. 
+Although the accuracy was lower, the incorrect predictions align much stronger with country music. After K-Nearest Neighbors, a decision tree classifier was attempted to gain an attempt at improved accuracy.
 
-By evaluating the two models, it is clear that using the feature reduced set in combination with KNN led to more desirable results. It indicates that the country genre shares similarities with each of the other genres. 
+**Decision Tree** :
+Using the data set with reduced features, the following is the model prediction amd metrics.
 
-Moving forward, collecting more data may be beneficial. The model appears to be overfitting, and more data remedy it. The amount of features can be reduced even further. Investigations will be made into how dimension reduction can be performed on a supervised data set. By collecting more data and reducing the number of dimensions, overfitting can possibly be fixed. 
+<iframe src="model/images/collinearity/dt.png" width="832" height="519"></iframe>
 
+Accuracy : 45% 
+Precision : 44.9% 
+Recall : 45.2%
+
+After attempting to use Decision Trees as an alternative model, the accuracy was noticeable lower than using a neural network whether that be Multi-Layer Perceptron or K-Nearest Neighors. The accruacy is lower, which suggests that the model is still overfitting some data. Support Vector Machines can help mediate overfitting. 
+
+**Support Vector Machine**:
+Using the data set with reduced features, the following is the model prediction and metrics. 
+
+<iframe src="model/images/collinearity/SVM.png" width="832" height="519"></iframe>
+
+Accuracy : 59.9% 
+Precision : 58.9% 
+Recall : 59%
 
 ## Project Contributors
 
