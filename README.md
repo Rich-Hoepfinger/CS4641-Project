@@ -45,8 +45,9 @@ Through trial and error the Euclidean distance metric with an Epsilon of 5 and m
  
 ![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
  
-The red bubbles represent removed songs - note results < 10 are multiplied by 10 - while blue crosses are runs which didn't remove any outliers.
-These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset. 
+The red bubbles represent parameters which removed over 100 songs, & were judged to remove too many features. Orange bubbles removed under 10 songs, & were therefore ineffective at removing many outliers. Green bubbles are parameter combinations which removed between 10 & 100 songs. Black 'X's are combinations which didn't removed any songs. 
+
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset.
 
 ### Exploratory Data Visualization
 Below are some visualizations of the data with outliers removed:
