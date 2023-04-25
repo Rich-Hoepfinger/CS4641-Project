@@ -169,15 +169,15 @@ This model performs considerably better than the other explored models. Hence, w
 
 ### Hyperparameter Tuning
 
-For each of the following parameters, different values were tested to obtain the highest testing accuracy.
+For each of the following parameters, different values (indicated in brackets) were tested to obtain the highest testing accuracy.
 
 **DB-SCAN**
-* minPts - minimum number of points in neighborhood in DB-SCAN
-* epsilon - radius of hypersphere in DB-SCAN
-* distance - the distance function used in DB-SCAN
+* minPts [range from 1-10]- minimum number of points in neighborhood in DB-SCAN
+* epsilon [range from 1-100] - radius of hypersphere in DB-SCAN
+* distance ["euclidean", "cosine", "cityblock", "l1", "l2", "hamming"] - the distance function used in DB-SCAN
 
 **Feature Reduction**
-* th - correlation threshold for feature reduction by mutlicollinearity analysis
+* th [0.6, 0.8]- correlation threshold for feature reduction by mutlicollinearity analysis
 
 **Support Vector Machine**
 * kernel: the kernel type used to transform the data
