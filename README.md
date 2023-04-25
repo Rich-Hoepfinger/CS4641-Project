@@ -38,6 +38,11 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found. 
 
+### Exploratory Data Visualization
+Below are some visualizations of the data:
+
+<iframe src="graphdisplay.html" width="832" height="519"></iframe>
+
 ### Removing Outliers with DBSCAN
 Outliers decreases the statistical power of tests we conduct during feature reduction and in training the model. Therefore, outlier removal was conducted as a preprocessing step, prior to normalization. DBScan is a clustering algorithm that can be used for outlier detection. For outlier detection, it's important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest.
 
@@ -63,22 +68,29 @@ Using this correlation matrix, features were dropped until all correlation coeff
 
 This selection of features did not raise performance compared to DB-Scanned data though. 
 
-## Hyperparameter Tuning
+### Hyperparameter Tuning
 
-For each of the following parameters, different values were tested to obtain the highest testing accuracy for each model type (neural net, KNN, decision tree, SVM):
+For each of the following parameters, different values were tested to obtain the highest testing accuracy. The parameters are listed in terms of which model type they correspond to (neural net, KNN, decision tree, SVM):
 
 **All**
 * minPts - minimum number of points in neighborhood in DB-SCAN
 * epsilon - radius of hypersphere in DB-SCAN
 * distance - the distance function used in DB-SCAN
 * th - correlation threshold for feature reduction by mutlicollinearity analysis
+
 **Neural Net**
+
+
 **KNN**
+
+
 **Decision Tree**
+
+
 **Support Vector Machine**
-* kernel:
-* degree:
-* C:
+* kernel: the kernel type used to transform the data
+* degree: if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
+* C: indicates how much incorrect classifications should be penalized
 
 ## Results and Discussion
 
