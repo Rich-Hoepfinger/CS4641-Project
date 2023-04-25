@@ -39,13 +39,17 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found. 
 
 ### Removing Outliers with DBSCAN
-Outliers decreases the statistical power of tests we conduct during feature reduction and in training the model. Therefore, outlier removal was conducted as a preprocessing step, prior to normalization. DBScan is a clustering algorithm that can be used for outlier detection. For outlier detection, it's important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest. However, as a starting point, DB-SCAN was done using the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
+Outliers decrease the statistical power of tests we conduct during feature reduction and in training the model. Therefore, DBScan, a clustering algorithm, was used to identify outliers, which were then removed prior to data normalization. 
+
+For outlier detection, it’s important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest. 
+
+DB-SCAN was tested using several values for epsilon and min points to generate the following graph:
  
 ![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
  
-The red bubbles represent parameters which removed over 100 songs, & were judged to remove too many features. Orange bubbles removed under 10 songs, & were therefore ineffective at removing many outliers. Green bubbles are parameter combinations which removed between 10 & 100 songs. Black 'X's are combinations which didn't remove any songs. 
+In the graph above, the size of the circles represent the number of outliers identified to be removed. From this, a reasonable value to use as a starting point for epsilon and minimum points was determined to be 5 and 4, respectively.
 
-These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset.
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset.
 
 ### Exploratory Data Visualization
 Below are some visualizations of the data with outliers removed:
@@ -148,7 +152,7 @@ Although the accuracy was lower, the incorrect predictions align much stronger w
 **Decision Tree** :
 Using the data set with reduced features, the following is the model prediction amd metrics.
 
-<iframe src="model/images/collinearity/dt_2.png" width="832" height="519"></iframe>
+<iframe src="model/images/collinearity/dt_3.png" width="832" height="519"></iframe>
 
 Accuracy : 45% 
 Precision : 44.9% 
@@ -190,35 +194,35 @@ For each of the following parameters, different values (indicated in brackets) w
 After tuning, here are the optimal performance metrics and hyperparameters for each model.
 
 **Decision Tree**
-Removed Songs: 7
-Epsilon: 19
-Min_Points: 2
-Metric: l1
-Colinearity Threashold: 0.8
-Dropped Columns: ['loudness']
-Model: Decision Tree
-Accuracy: 0.503
-Precision: 0.499
-Recall: 0.497
+* Removed Songs: 7
+* Epsilon: 19
+* Min_Points: 2
+* Metric: l1
+* Colinearity Threashold: 0.8
+* Dropped Columns: ['loudness']
+* Model: Decision Tree
+* Accuracy: 0.503
+* Precision: 0.499
+* Recall: 0.497
 
 **Neural Networks**
 
 
 **SVM**
-Removed Songs: 4
-Epsilon: 14
-Min Points: 5
-Metric: euclidean
-Colinearity Threshold: 0.8
-Dropped Columns: ['loudness"]
-Model: SVM
-Accuracy: 0.639
-Precision: 0.633
-Recall: 0.631
-C: 2.3
-Kernel: rbf
-Degree: 3
-Break Ties: False
+* Removed Songs: 4
+* Epsilon: 14
+* Min Points: 5
+* Metric: euclidean
+* Colinearity Threshold: 0.8
+* Dropped Columns: ['loudness"]
+* Model: SVM
+* Accuracy: 0.639
+* Precision: 0.633
+* Recall: 0.631
+* C: 2.3
+* Kernel: rbf
+* Degree: 3
+* Break Ties: False
 
 
 
