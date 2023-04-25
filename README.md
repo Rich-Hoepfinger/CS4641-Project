@@ -209,25 +209,26 @@ After tuning, here are the optimal performance metrics and hyperparameters for e
 
 
 **SVM**
-* Removed Songs: 4
-* Epsilon: 14
-* Min Points: 5
-* Metric: euclidean
+* Removed Songs: 42
+* Epsilon: 15
+* Min Points: 3
+* Metric: cityblock
 * Colinearity Threshold: 0.8
 * Dropped Columns: ['loudness"]
 * Model: SVM
-* Accuracy: 0.639
-* Precision: 0.633
-* Recall: 0.631
+* Accuracy: 0.6256
+* Precision: 0.6342
+* Recall: 0.6343
 * C: 2.3
 * Kernel: rbf
 * Degree: 3
 * Break Ties: False
 
-
+The optimal model in all 3 metrics is SVM. In the following image we plotted model accuracy with different values of $$\epsilon$$ at the optimal minimum points. 
 
 ![eps](https://user-images.githubusercontent.com/106047524/234415875-d9830bb1-8aea-4e15-af2e-1159798e38f5.png)
-The effect of $$\epsilon$$ on accuracy 
+
+
 
 ![min_pts](https://user-images.githubusercontent.com/106047524/234415896-00635724-f0e7-431c-9fd3-cf7f387fcc7a.png)
 
