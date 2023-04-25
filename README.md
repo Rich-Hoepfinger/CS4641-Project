@@ -17,7 +17,7 @@ First, the team created a comprehensive list of genres to be used as classificat
 
 The next step is to generate Spotify playlists of around 500 tracks for each of the chosen genres. Each genre was assigned to a team member who would be responsible for compiling tracks that belong to that genre. The created playlists can be found here: [Pop](https://open.spotify.com/playlist/13Cm1hem9RE4v2ZOMJv34T?si=C9qRRpOQT4-tIqZlzERd6w&app_destination=copy-link), [Hip Hop](https://open.spotify.com/playlist/5K9FlaF7V8Ib4X09rl23w6?si=XnauqM5BTiiqvp88B1bDwA&app_destination=copy-link), [Rock](https://open.spotify.com/playlist/5Wk9TcVaNE5yCyli90HmaR?si=7e1c58897b224157), [Country](https://open.spotify.com/playlist/6hjSKEoPqPLPTt3u0e9bLQ?si=0c844e194b8e467f), [Electronic](https://open.spotify.com/playlist/4ZMSlQbw13hExG4ztynNNV?si=1176e787add3496d), [R&B](https://open.spotify.com/playlist/5WJXKWvPeWA9ubmvVsMTBh?si=YQ0Hnol7Q6S7sivtxHAssA&app_destination=copy-link), [Metal](https://open.spotify.com/playlist/2mDXGVXMG4ZMQaR26iZVC7?si=2beae20751ab4364), [Jazz](https://open.spotify.com/playlist/6GrLcuf2cf8g6h8lkZ0h7H?si=3b460ce380ff4ee6), [Reggae](https://open.spotify.com/playlist/6E5Fr9QU6yAety6Y6pw11u?si=28e0d5583c814bb0), [Disco](https://open.spotify.com/playlist/15X96mpCbP1ZiX8WIBqOhO?si=ba46abbe1146480f), [Folk](https://open.spotify.com/playlist/5fEekkUMaM2Le4FL38UuKx?si=b569e2ad8a264b6b), [Orchestral](https://open.spotify.com/playlist/6HGXewRDu4sH2qy8NYnNba?si=e41039b4ee764d3d).
 
-Next, using the Spotify API and the spotipy library in Python, metadata describing each track’s popularity and audio features was extracted from the Spotify API to be used as features in the classification model. A description of each of these features obtained from the Spotify API [[6]](#references) is portrayed below: 
+Next, using the Spotify API and the spotipy library in Python, metadata describing each track’s popularity and audio features was extracted from the Spotify API to be used as features in the classification model. A description of each of these features obtained from the Spotify API [[6]](#references) is portrayed below:
 
 | Feature | Variable Type | Description |
 | --- | ----------- | ---------------|
@@ -36,25 +36,10 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 | Duration | numeric int | The duration of the track in milliseconds. |
 | Time Signature | categoric int | An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of "3/4", to "7/4". |
 
-This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
+This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found. 
 
 ### Removing Outliers with DBSCAN
-While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. To aid in tuning the parameters, a helper method `trial_metric` was set up to test how some of Scikit-learn's various metrics affected the results, iterating across a range of values by brute force. Runs which removed <200 songs were bubble-graphed.
- 
-Through trial and error the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
- 
-![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
- 
-The red bubbles represent parameters which removed over 100 songs, & were judged to remove too many features. Orange bubbles removed under 10 songs, & were therefore ineffective at removing many outliers. Green bubbles are parameter combinations which removed between 10 & 100 songs. Black 'X's are combinations which didn't remove any songs. 
-
-These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset.
-
-### Exploratory Data Visualization
-Below are some visualizations of the data with outliers removed:
-<iframe src="graphdisplay.html" width="832" height="519"></iframe>
-<iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
-
-Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
+Outliers decreases the statistical power of tests we conduct during feature reduction and in training the model. Therefore, outlier removal was conducted as a preprocessing step, prior to normalization. DBScan is a clustering algorithm that can be used for outlier detection. For outlier detection, it's important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as the model hyperparameter and be tuned together with the rest.
 
 ### Normalization
 
@@ -65,19 +50,19 @@ Our dataset consists of numeric and categorical variables. Categorical variables
 * Z-score: (X - mean)/std. By one sigma from mean, ~68% of data are between 0-1.
 * Softmax: softmax(x_i) = e^(x_i) / sum_j(e^(x_j)). A probability distribution for each class.
 
-For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. 
+For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset.
 
 ### Feature Reduction
 
-In order to further process the data before generating the model(s), feature reduction was attempted. As the first step to feature reduction, the correlation matrix between variables was examined. 
+In order to reduce time and space complexity of the model(s), feature reduction was conducted. The first step was to check for multicollinearity, and thus the correlation matrix between variables was examined.
 
 <iframe src="Graphs/CorrelationMatrix_zscore.html" width="832" height="519"></iframe>
 
-As a principle, variables were removed until there are no 2 variables having > 0.6 positive/negative correlation with each other. Under inspection, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6. 
+A key factor here was to determine the right correlation threshold beyond which variables will be removed, as removing a variable could also cause the model performance to worsen. Due to this, an arbitrary decision was made to test 2 thresholds: 0.6 and 0.8. A threshold of 0.6 means that we continue to remove variables until there are no pair of variables having > 0.6 positive/negative correlation with each other. Under th = 0.6, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6.
 
 <iframe src="Graphs/CorrelationMatrix_removed.html" width="832" height="519"></iframe>
 
-This selection of features did not raise performance compared to DB-Scanned data though. The specific performance is reported and compared in the Metrics section. We are in the progress of trying out other feature reduction methods, like PCA and RFE from scikit-learn. We are also examining the validity of forward/backward selection and searching for available packages.
+This selection of features did not raise performance compared to DB-Scanned data though. 
 
 ## Results and Discussion
 
