@@ -169,7 +169,7 @@ This model performs considerably better than the other explored models. Hence, w
 
 ### Hyperparameter Tuning
 
-For each of the following parameters, different values (indicated in brackets) were tested to obtain the highest testing accuracy.
+For each of the following parameters, different values (indicated in brackets) were iterated through to obtain the highest testing accuracy.
 
 **DB-SCAN**
 * minPts [range from 1-10]- minimum number of points in neighborhood in DB-SCAN
@@ -187,7 +187,44 @@ For each of the following parameters, different values (indicated in brackets) w
 
 ## Results and Discussion
 
+After tuning, here are the optimal performance metrics and hyperparameters for each model.
+
+**Decision Tree**
+Removed Songs: 7
+Epsilon: 19
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Decision Tree
+Accuracy: 0.503
+Precision: 0.499
+Recall: 0.497
+
+**Neural Networks**
+
+
+**SVM**
+Removed Songs: 4
+Epsilon: 14
+Min Points: 5
+Metric: euclidean
+Colinearity Threshold: 0.8
+Dropped Columns: ['loudness"]
+Model: SVM
+Accuracy: 0.639
+Precision: 0.633
+Recall: 0.631
+C: 2.3
+Kernel: rbf
+Degree: 3
+Break Ties: False
+
+
+
 ![eps](https://user-images.githubusercontent.com/106047524/234415875-d9830bb1-8aea-4e15-af2e-1159798e38f5.png)
+The effect of $$\epsilon$$ on accuracy 
+
 ![min_pts](https://user-images.githubusercontent.com/106047524/234415896-00635724-f0e7-431c-9fd3-cf7f387fcc7a.png)
 
 
