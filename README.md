@@ -206,7 +206,16 @@ After tuning, here are the optimal performance metrics and hyperparameters for e
 * Recall: 0.497
 
 **Neural Networks**
-
+* Removed Songs: 9
+* Epsilon: 13
+* Min_Points: 9
+* Metric: euclidean
+* Colinearity Threashold: 0.8
+* Dropped Columns: ['loudness']
+* Model: Neural Net
+* Accuracy: 0.56
+* Precision: 0.554
+* Recall: 0.552
 
 **SVM**
 * Removed Songs: 42
