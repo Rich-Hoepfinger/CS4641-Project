@@ -259,10 +259,10 @@ Confusion Matrix
 
 | Member | Contributions |
 | --- | ----------- |
-| Ruwei Ma | Normalisation, Feature Reduction, Problem Definition, Discussion |
-| Annette Gisella | Data Collection, Duplicate Removal, Feature Reduction, Introduction, Discussion |
-| Richard Hoepfinger | Exploratory Data Visualization, Team Communication, Presentation, Discussion |
-| Tuan Ha | Neural Network, KNN, Results, Discussion |
+| Ruwei Ma | Exploratory Hyperparameter Tuning, Normalisation, Feature Reduction, Problem Definition, Discussion |
+| Annette Gisella | Report Write-Up, Data Collection, Duplicate Removal, Feature Reduction, Introduction, Discussion |
+| Richard Hoepfinger | Hyperparameter Tuning, Exploratory Data Visualization, Team Communication, Presentation, Discussion |
+| Tuan Ha | Hyperparameter Tuning, Neural Network, KNN, Results, Discussion |
 | Arthur Odom | Gantt Chart, DBSCAN, Discussion |
 
 ## Gantt Chart
