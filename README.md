@@ -187,6 +187,11 @@ For each of the following parameters, different values (indicated in brackets) w
 
 ## Results and Discussion
 
+![eps](https://user-images.githubusercontent.com/106047524/234415875-d9830bb1-8aea-4e15-af2e-1159798e38f5.png)
+![min_pts](https://user-images.githubusercontent.com/106047524/234415896-00635724-f0e7-431c-9fd3-cf7f387fcc7a.png)
+
+
+
 ## Project Contributors
 
 | Member | Contributions |
