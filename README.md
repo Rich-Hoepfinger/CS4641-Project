@@ -148,7 +148,7 @@ Although the accuracy was lower, the incorrect predictions align much stronger w
 **Decision Tree** :
 Using the data set with reduced features, the following is the model prediction amd metrics.
 
-<iframe src="model/images/collinearity/dt.png" width="832" height="519"></iframe>
+<iframe src="model/images/collinearity/dt.png" width="416" height="258"></iframe>
 
 Accuracy : 45% 
 Precision : 44.9% 
@@ -159,7 +159,7 @@ After attempting to use Decision Trees as an alternative model, the accuracy was
 **Support Vector Machine**:
 Using the data set with reduced features, the following is the model prediction and metrics. 
 
-<iframe src="model/images/collinearity/SVM.png" width="832" height="519"></iframe>
+<iframe src="model/images/collinearity/SVM.png" width="416" height="258"></iframe>
 
 Accuracy : 59.9% 
 Precision : 58.9% 
