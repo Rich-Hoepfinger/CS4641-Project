@@ -1,0 +1,3780 @@
+
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.02
+Min_Points: 6
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: euclidean
+Removed Songs is 0, moving on...
+
+Removed Songs: 5982
+Epsilon: 1
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.438
+Precision: 0.433
+Recall: 0.432
+
+Removed Songs: 4207
+Epsilon: 2
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.47
+Recall: 0.467
+
+Removed Songs: 1801
+Epsilon: 3
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.465
+Recall: 0.464
+
+Removed Songs: 730
+Epsilon: 4
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.455
+Recall: 0.453
+
+Removed Songs: 324
+Epsilon: 5
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.472
+Precision: 0.477
+Recall: 0.469
+
+Removed Songs: 171
+Epsilon: 6
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.459
+Recall: 0.454
+
+Removed Songs: 90
+Epsilon: 7
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.466
+Recall: 0.456
+
+Removed Songs: 47
+Epsilon: 8
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.474
+Recall: 0.468
+
+Removed Songs: 25
+Epsilon: 9
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.455
+Precision: 0.453
+Recall: 0.451
+
+Removed Songs: 12
+Epsilon: 10
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.454
+Recall: 0.449
+
+Removed Songs: 7
+Epsilon: 11
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.465
+Recall: 0.466
+
+Removed Songs: 3
+Epsilon: 12
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.461
+Recall: 0.454
+
+Removed Songs: 2
+Epsilon: 13
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.455
+Recall: 0.46
+
+Removed Songs: 2
+Epsilon: 14
+Min_Points: 2
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['danceability', 'energy', 'key', 'loudness', 'speechiness', 'acousticness', 'valence', 'tempo', 'duration_ms']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.455
+Recall: 0.457
+
+Removed Songs: 5145
+Epsilon: 2
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.475
+Precision: 0.473
+Recall: 0.469
+
+Removed Songs: 2295
+Epsilon: 3
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.447
+Recall: 0.449
+
+Removed Songs: 976
+Epsilon: 4
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.445
+Precision: 0.444
+Recall: 0.438
+
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.458
+Recall: 0.453
+
+Removed Songs: 213
+Epsilon: 6
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.45
+Precision: 0.454
+Recall: 0.453
+
+Removed Songs: 112
+Epsilon: 7
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.461
+Recall: 0.456
+
+Removed Songs: 65
+Epsilon: 8
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.448
+Recall: 0.445
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.475
+Precision: 0.47
+Recall: 0.47
+
+Removed Songs: 20
+Epsilon: 10
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.447
+Precision: 0.451
+Recall: 0.45
+
+Removed Songs: 11
+Epsilon: 11
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.452
+Recall: 0.449
+
+Removed Songs: 5
+Epsilon: 12
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.473
+Precision: 0.476
+Recall: 0.468
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.456
+Recall: 0.448
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 3
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.47
+Recall: 0.467
+
+Removed Songs: 5718
+Epsilon: 2
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.455
+Precision: 0.46
+Recall: 0.457
+
+Removed Songs: 2965
+Epsilon: 3
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.466
+Recall: 0.462
+
+Removed Songs: 1273
+Epsilon: 4
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.481
+Recall: 0.471
+
+Removed Songs: 595
+Epsilon: 5
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.458
+Recall: 0.46
+
+Removed Songs: 285
+Epsilon: 6
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.449
+Recall: 0.45
+
+Removed Songs: 138
+Epsilon: 7
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.48
+Recall: 0.477
+
+Removed Songs: 77
+Epsilon: 8
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.461
+Recall: 0.461
+
+Removed Songs: 42
+Epsilon: 9
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.481
+Precision: 0.479
+Recall: 0.482
+
+Removed Songs: 21
+Epsilon: 10
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.46
+Recall: 0.461
+
+Removed Songs: 15
+Epsilon: 11
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.462
+Recall: 0.458
+
+Removed Songs: 7
+Epsilon: 12
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.437
+Precision: 0.439
+Recall: 0.435
+
+Removed Songs: 5
+Epsilon: 13
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.476
+Recall: 0.47
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.497
+Precision: 0.489
+Recall: 0.488
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.464
+Recall: 0.467
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 4
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.465
+Recall: 0.462
+
+Removed Songs: 5953
+Epsilon: 2
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.445
+Precision: 0.45
+Recall: 0.446
+
+Removed Songs: 3617
+Epsilon: 3
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.481
+Precision: 0.474
+Recall: 0.475
+
+Removed Songs: 1509
+Epsilon: 4
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.478
+Precision: 0.48
+Recall: 0.485
+
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.473
+Recall: 0.473
+
+Removed Songs: 343
+Epsilon: 6
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.455
+Recall: 0.453
+
+Removed Songs: 175
+Epsilon: 7
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.451
+Recall: 0.449
+
+Removed Songs: 97
+Epsilon: 8
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.454
+Recall: 0.456
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.46
+Recall: 0.462
+
+Removed Songs: 27
+Epsilon: 10
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.473
+Recall: 0.473
+
+Removed Songs: 16
+Epsilon: 11
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.489
+Precision: 0.487
+Recall: 0.486
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.466
+Recall: 0.465
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.45
+Precision: 0.448
+Recall: 0.441
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.494
+Precision: 0.492
+Recall: 0.489
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.46
+Recall: 0.463
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 5
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.494
+Precision: 0.498
+Recall: 0.489
+
+Removed Songs: 6058
+Epsilon: 2
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.465
+Recall: 0.465
+
+Removed Songs: 4050
+Epsilon: 3
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.472
+Precision: 0.477
+Recall: 0.475
+
+Removed Songs: 1769
+Epsilon: 4
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.447
+Precision: 0.453
+Recall: 0.448
+
+Removed Songs: 837
+Epsilon: 5
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.457
+Precision: 0.458
+Recall: 0.46
+
+Removed Songs: 425
+Epsilon: 6
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.447
+Precision: 0.448
+Recall: 0.439
+
+Removed Songs: 215
+Epsilon: 7
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.457
+Recall: 0.455
+
+Removed Songs: 110
+Epsilon: 8
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.457
+Precision: 0.457
+Recall: 0.463
+
+Removed Songs: 56
+Epsilon: 9
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.455
+Precision: 0.463
+Recall: 0.45
+
+Removed Songs: 33
+Epsilon: 10
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.487
+Precision: 0.484
+Recall: 0.482
+
+Removed Songs: 19
+Epsilon: 11
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.473
+Recall: 0.475
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.462
+Recall: 0.46
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.461
+Recall: 0.448
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.45
+Precision: 0.449
+Recall: 0.449
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.469
+Recall: 0.467
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 6
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.444
+Precision: 0.449
+Recall: 0.441
+
+Removed Songs: 6093
+Epsilon: 2
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'mode', 'speechiness', 'acousticness', 'liveness', 'valence', 'tempo', 'duration_ms']
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.45
+Recall: 0.446
+
+Removed Songs: 4532
+Epsilon: 3
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.463
+Recall: 0.465
+
+Removed Songs: 1994
+Epsilon: 4
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.471
+Precision: 0.467
+Recall: 0.463
+
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.457
+Recall: 0.455
+
+Removed Songs: 489
+Epsilon: 6
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.466
+Recall: 0.454
+
+Removed Songs: 245
+Epsilon: 7
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.491
+Precision: 0.49
+Recall: 0.484
+
+Removed Songs: 135
+Epsilon: 8
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.453
+Recall: 0.454
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.461
+Recall: 0.457
+
+Removed Songs: 36
+Epsilon: 10
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.459
+Recall: 0.459
+
+Removed Songs: 20
+Epsilon: 11
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.457
+Recall: 0.449
+
+Removed Songs: 10
+Epsilon: 12
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.459
+Recall: 0.46
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.458
+Recall: 0.455
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.471
+Recall: 0.464
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.47
+Recall: 0.467
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 7
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.469
+Recall: 0.466
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.461
+Recall: 0.467
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 2
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 4
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 6
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 8
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: cityblock
+Removed Songs is 0, moving on...
+
+Removed Songs: 6090
+Epsilon: 1
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['key', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'valence', 'tempo']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.453
+Recall: 0.458
+
+Removed Songs: 5938
+Epsilon: 2
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.451
+Recall: 0.449
+
+Removed Songs: 5355
+Epsilon: 3
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.455
+Recall: 0.449
+
+Removed Songs: 4181
+Epsilon: 4
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.459
+Recall: 0.46
+
+Removed Songs: 2769
+Epsilon: 5
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.465
+Precision: 0.455
+Recall: 0.464
+
+Removed Songs: 1729
+Epsilon: 6
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.463
+Recall: 0.464
+
+Removed Songs: 1084
+Epsilon: 7
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.471
+Precision: 0.468
+Recall: 0.47
+
+Removed Songs: 650
+Epsilon: 8
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.454
+Recall: 0.454
+
+Removed Songs: 408
+Epsilon: 9
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.477
+Recall: 0.474
+
+Removed Songs: 254
+Epsilon: 10
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.463
+Recall: 0.464
+
+Removed Songs: 163
+Epsilon: 11
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.445
+Precision: 0.443
+Recall: 0.443
+
+Removed Songs: 122
+Epsilon: 12
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.473
+Recall: 0.468
+
+Removed Songs: 84
+Epsilon: 13
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.455
+Recall: 0.459
+
+Removed Songs: 54
+Epsilon: 14
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.449
+Recall: 0.45
+
+Removed Songs: 30
+Epsilon: 15
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.478
+Recall: 0.477
+
+Removed Songs: 21
+Epsilon: 16
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.475
+Precision: 0.473
+Recall: 0.471
+
+Removed Songs: 13
+Epsilon: 17
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.47
+Recall: 0.46
+
+Removed Songs: 10
+Epsilon: 18
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.457
+Recall: 0.456
+
+Removed Songs: 7
+Epsilon: 19
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.479
+Precision: 0.479
+Recall: 0.473
+
+Removed Songs: 6
+Epsilon: 20
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.449
+Recall: 0.447
+
+Removed Songs: 4
+Epsilon: 21
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.468
+Recall: 0.465
+
+Removed Songs: 2
+Epsilon: 22
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.481
+Precision: 0.484
+Recall: 0.477
+
+Removed Songs: 2
+Epsilon: 23
+Min_Points: 2
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.482
+Recall: 0.472
+
+Removed Songs: 6088
+Epsilon: 2
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['key', 'loudness', 'acousticness', 'valence', 'tempo']
+Model: Decision Tree
+Accuracy: 0.465
+Precision: 0.464
+Recall: 0.466
+
+Removed Songs: 5851
+Epsilon: 3
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.46
+Recall: 0.455
+
+Removed Songs: 5007
+Epsilon: 4
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.427
+Precision: 0.434
+Recall: 0.43
+
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.459
+Recall: 0.462
+
+Removed Songs: 2147
+Epsilon: 6
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.441
+Recall: 0.445
+
+Removed Songs: 1380
+Epsilon: 7
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.458
+Recall: 0.453
+
+Removed Songs: 836
+Epsilon: 8
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.461
+Recall: 0.463
+
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.48
+Recall: 0.475
+
+Removed Songs: 328
+Epsilon: 10
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.464
+Recall: 0.458
+
+Removed Songs: 203
+Epsilon: 11
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.473
+Precision: 0.468
+Recall: 0.464
+
+Removed Songs: 150
+Epsilon: 12
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.451
+Recall: 0.452
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.444
+Precision: 0.442
+Recall: 0.443
+
+Removed Songs: 68
+Epsilon: 14
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.457
+Precision: 0.463
+Recall: 0.459
+
+Removed Songs: 42
+Epsilon: 15
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.462
+Recall: 0.464
+
+Removed Songs: 31
+Epsilon: 16
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.462
+Recall: 0.462
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.468
+Recall: 0.461
+
+Removed Songs: 16
+Epsilon: 18
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.455
+Recall: 0.448
+
+Removed Songs: 11
+Epsilon: 19
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.455
+Precision: 0.461
+Recall: 0.455
+
+Removed Songs: 10
+Epsilon: 20
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.454
+Recall: 0.45
+
+Removed Songs: 6
+Epsilon: 21
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.46
+Recall: 0.46
+
+Removed Songs: 4
+Epsilon: 22
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.464
+Recall: 0.463
+
+Removed Songs: 4
+Epsilon: 23
+Min_Points: 3
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.458
+Recall: 0.459
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 4
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.472
+Recall: 0.468
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 5
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.472
+Precision: 0.475
+Recall: 0.473
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 6
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.479
+Precision: 0.472
+Recall: 0.471
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 7
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.462
+Recall: 0.456
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.459
+Recall: 0.458
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: l1
+Removed Songs is 0, moving on...
+
+Removed Songs: 6090
+Epsilon: 1
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['key', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'valence', 'tempo']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.476
+Recall: 0.467
+
+Removed Songs: 5938
+Epsilon: 2
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.449
+Recall: 0.442
+
+Removed Songs: 5355
+Epsilon: 3
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.469
+Recall: 0.469
+
+Removed Songs: 4181
+Epsilon: 4
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.457
+Recall: 0.458
+
+Removed Songs: 2769
+Epsilon: 5
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.467
+Recall: 0.46
+
+Removed Songs: 1729
+Epsilon: 6
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.482
+Precision: 0.478
+Recall: 0.478
+
+Removed Songs: 1084
+Epsilon: 7
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.45
+Precision: 0.46
+Recall: 0.456
+
+Removed Songs: 650
+Epsilon: 8
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.477
+Precision: 0.477
+Recall: 0.476
+
+Removed Songs: 408
+Epsilon: 9
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.439
+Precision: 0.441
+Recall: 0.439
+
+Removed Songs: 254
+Epsilon: 10
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.45
+Recall: 0.452
+
+Removed Songs: 163
+Epsilon: 11
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.482
+Precision: 0.481
+Recall: 0.477
+
+Removed Songs: 122
+Epsilon: 12
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.446
+Precision: 0.448
+Recall: 0.442
+
+Removed Songs: 84
+Epsilon: 13
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.454
+Recall: 0.448
+
+Removed Songs: 54
+Epsilon: 14
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.448
+Precision: 0.447
+Recall: 0.443
+
+Removed Songs: 30
+Epsilon: 15
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.472
+Recall: 0.468
+
+Removed Songs: 21
+Epsilon: 16
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.452
+Recall: 0.455
+
+Removed Songs: 13
+Epsilon: 17
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.467
+Recall: 0.458
+
+Removed Songs: 10
+Epsilon: 18
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.467
+Recall: 0.466
+
+Removed Songs: 7
+Epsilon: 19
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.479
+Recall: 0.476
+
+Removed Songs: 6
+Epsilon: 20
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.469
+Recall: 0.471
+
+Removed Songs: 4
+Epsilon: 21
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.462
+Recall: 0.454
+
+Removed Songs: 2
+Epsilon: 22
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.455
+Precision: 0.46
+Recall: 0.458
+
+Removed Songs: 2
+Epsilon: 23
+Min_Points: 2
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.482
+Recall: 0.478
+
+Removed Songs: 6088
+Epsilon: 2
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['key', 'loudness', 'acousticness', 'valence', 'tempo']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.461
+Recall: 0.455
+
+Removed Songs: 5851
+Epsilon: 3
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.45
+Recall: 0.447
+
+Removed Songs: 5007
+Epsilon: 4
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.466
+Recall: 0.465
+
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.461
+Recall: 0.464
+
+Removed Songs: 2147
+Epsilon: 6
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.475
+Recall: 0.466
+
+Removed Songs: 1380
+Epsilon: 7
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.483
+Recall: 0.474
+
+Removed Songs: 836
+Epsilon: 8
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.46
+Recall: 0.453
+
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.468
+Recall: 0.467
+
+Removed Songs: 328
+Epsilon: 10
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.453
+Recall: 0.448
+
+Removed Songs: 203
+Epsilon: 11
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.474
+Recall: 0.473
+
+Removed Songs: 150
+Epsilon: 12
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.46
+Recall: 0.46
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.456
+Recall: 0.454
+
+Removed Songs: 68
+Epsilon: 14
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.455
+Recall: 0.456
+
+Removed Songs: 42
+Epsilon: 15
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.457
+Recall: 0.459
+
+Removed Songs: 31
+Epsilon: 16
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.465
+Recall: 0.466
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.465
+Precision: 0.462
+Recall: 0.463
+
+Removed Songs: 16
+Epsilon: 18
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.489
+Precision: 0.493
+Recall: 0.49
+
+Removed Songs: 11
+Epsilon: 19
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.475
+Precision: 0.474
+Recall: 0.472
+
+Removed Songs: 10
+Epsilon: 20
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.457
+Recall: 0.457
+
+Removed Songs: 6
+Epsilon: 21
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.477
+Precision: 0.485
+Recall: 0.479
+
+Removed Songs: 4
+Epsilon: 22
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.465
+Recall: 0.463
+
+Removed Songs: 4
+Epsilon: 23
+Min_Points: 3
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.467
+Recall: 0.462
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 4
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.452
+Recall: 0.45
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 5
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.454
+Recall: 0.459
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 6
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.481
+Precision: 0.479
+Recall: 0.479
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 7
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.46
+Recall: 0.458
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.458
+Recall: 0.461
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: l2
+Removed Songs is 0, moving on...
+
+Removed Songs: 5982
+Epsilon: 1
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.453
+Recall: 0.453
+
+Removed Songs: 4207
+Epsilon: 2
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.469
+Precision: 0.47
+Recall: 0.467
+
+Removed Songs: 1801
+Epsilon: 3
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.457
+Precision: 0.461
+Recall: 0.452
+
+Removed Songs: 730
+Epsilon: 4
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.477
+Recall: 0.471
+
+Removed Songs: 324
+Epsilon: 5
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.479
+Precision: 0.474
+Recall: 0.473
+
+Removed Songs: 171
+Epsilon: 6
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.461
+Recall: 0.456
+
+Removed Songs: 90
+Epsilon: 7
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.452
+Recall: 0.448
+
+Removed Songs: 47
+Epsilon: 8
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.446
+Precision: 0.445
+Recall: 0.443
+
+Removed Songs: 25
+Epsilon: 9
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.461
+Precision: 0.464
+Recall: 0.462
+
+Removed Songs: 12
+Epsilon: 10
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.453
+Recall: 0.462
+
+Removed Songs: 7
+Epsilon: 11
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.485
+Precision: 0.484
+Recall: 0.482
+
+Removed Songs: 3
+Epsilon: 12
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.471
+Recall: 0.465
+
+Removed Songs: 2
+Epsilon: 13
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.433
+Precision: 0.428
+Recall: 0.431
+
+Removed Songs: 2
+Epsilon: 14
+Min_Points: 2
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['danceability', 'energy', 'key', 'loudness', 'speechiness', 'acousticness', 'valence', 'tempo', 'duration_ms']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.46
+Recall: 0.463
+
+Removed Songs: 5145
+Epsilon: 2
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.462
+Recall: 0.462
+
+Removed Songs: 2295
+Epsilon: 3
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.462
+Recall: 0.455
+
+Removed Songs: 976
+Epsilon: 4
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.467
+Recall: 0.465
+
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.457
+Recall: 0.458
+
+Removed Songs: 213
+Epsilon: 6
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.471
+Precision: 0.463
+Recall: 0.465
+
+Removed Songs: 112
+Epsilon: 7
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.479
+Precision: 0.475
+Recall: 0.476
+
+Removed Songs: 65
+Epsilon: 8
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.46
+Recall: 0.462
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.483
+Precision: 0.479
+Recall: 0.481
+
+Removed Songs: 20
+Epsilon: 10
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.485
+Precision: 0.483
+Recall: 0.477
+
+Removed Songs: 11
+Epsilon: 11
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.452
+Recall: 0.455
+
+Removed Songs: 5
+Epsilon: 12
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.472
+Recall: 0.467
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.473
+Recall: 0.472
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 3
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.458
+Recall: 0.448
+
+Removed Songs: 5718
+Epsilon: 2
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.481
+Precision: 0.472
+Recall: 0.48
+
+Removed Songs: 2965
+Epsilon: 3
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.457
+Recall: 0.459
+
+Removed Songs: 1273
+Epsilon: 4
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.462
+Recall: 0.464
+
+Removed Songs: 595
+Epsilon: 5
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.463
+Precision: 0.467
+Recall: 0.461
+
+Removed Songs: 285
+Epsilon: 6
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.47
+Recall: 0.464
+
+Removed Songs: 138
+Epsilon: 7
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.456
+Recall: 0.455
+
+Removed Songs: 77
+Epsilon: 8
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.464
+Recall: 0.456
+
+Removed Songs: 42
+Epsilon: 9
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.468
+Recall: 0.468
+
+Removed Songs: 21
+Epsilon: 10
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.478
+Recall: 0.472
+
+Removed Songs: 15
+Epsilon: 11
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.451
+Precision: 0.453
+Recall: 0.444
+
+Removed Songs: 7
+Epsilon: 12
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.493
+Precision: 0.485
+Recall: 0.487
+
+Removed Songs: 5
+Epsilon: 13
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.463
+Precision: 0.464
+Recall: 0.458
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.456
+Recall: 0.456
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.481
+Recall: 0.473
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 4
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.464
+Recall: 0.463
+
+Removed Songs: 5953
+Epsilon: 2
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.456
+Recall: 0.449
+
+Removed Songs: 3617
+Epsilon: 3
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.454
+Recall: 0.452
+
+Removed Songs: 1509
+Epsilon: 4
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.455
+Recall: 0.459
+
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.462
+Precision: 0.459
+Recall: 0.461
+
+Removed Songs: 343
+Epsilon: 6
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.468
+Recall: 0.465
+
+Removed Songs: 175
+Epsilon: 7
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.454
+Recall: 0.453
+
+Removed Songs: 97
+Epsilon: 8
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.465
+Recall: 0.46
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.462
+Recall: 0.458
+
+Removed Songs: 27
+Epsilon: 10
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.447
+Precision: 0.449
+Recall: 0.441
+
+Removed Songs: 16
+Epsilon: 11
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.47
+Recall: 0.466
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.463
+Recall: 0.464
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.465
+Recall: 0.463
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.467
+Recall: 0.468
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.46
+Precision: 0.454
+Recall: 0.454
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 5
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.456
+Precision: 0.454
+Recall: 0.451
+
+Removed Songs: 6058
+Epsilon: 2
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.459
+Precision: 0.467
+Recall: 0.462
+
+Removed Songs: 4050
+Epsilon: 3
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.475
+Precision: 0.474
+Recall: 0.475
+
+Removed Songs: 1769
+Epsilon: 4
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.454
+Recall: 0.448
+
+Removed Songs: 837
+Epsilon: 5
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.462
+Recall: 0.462
+
+Removed Songs: 425
+Epsilon: 6
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.457
+Recall: 0.45
+
+Removed Songs: 215
+Epsilon: 7
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.444
+Precision: 0.444
+Recall: 0.444
+
+Removed Songs: 110
+Epsilon: 8
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.448
+Precision: 0.446
+Recall: 0.453
+
+Removed Songs: 56
+Epsilon: 9
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.466
+Precision: 0.465
+Recall: 0.464
+
+Removed Songs: 33
+Epsilon: 10
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.454
+Recall: 0.448
+
+Removed Songs: 19
+Epsilon: 11
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.465
+Recall: 0.465
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.459
+Recall: 0.458
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.45
+Recall: 0.45
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.453
+Precision: 0.451
+Recall: 0.452
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.464
+Precision: 0.464
+Recall: 0.465
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 6
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.452
+Precision: 0.464
+Recall: 0.451
+
+Removed Songs: 6093
+Epsilon: 2
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'mode', 'speechiness', 'acousticness', 'liveness', 'valence', 'tempo', 'duration_ms']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.451
+Recall: 0.45
+
+Removed Songs: 4532
+Epsilon: 3
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.467
+Precision: 0.465
+Recall: 0.459
+
+Removed Songs: 1994
+Epsilon: 4
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.476
+Precision: 0.466
+Recall: 0.471
+
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.479
+Recall: 0.478
+
+Removed Songs: 489
+Epsilon: 6
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.48
+Precision: 0.477
+Recall: 0.475
+
+Removed Songs: 245
+Epsilon: 7
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.468
+Precision: 0.465
+Recall: 0.465
+
+Removed Songs: 135
+Epsilon: 8
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.448
+Precision: 0.446
+Recall: 0.449
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.454
+Precision: 0.455
+Recall: 0.455
+
+Removed Songs: 36
+Epsilon: 10
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.449
+Precision: 0.447
+Recall: 0.444
+
+Removed Songs: 20
+Epsilon: 11
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.472
+Precision: 0.473
+Recall: 0.473
+
+Removed Songs: 10
+Epsilon: 12
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.439
+Precision: 0.442
+Recall: 0.436
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.444
+Precision: 0.448
+Recall: 0.441
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.46
+Recall: 0.46
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Decision Tree
+Accuracy: 0.47
+Precision: 0.476
+Recall: 0.47
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 7
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.474
+Precision: 0.478
+Recall: 0.47
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Decision Tree
+Accuracy: 0.458
+Precision: 0.461
+Recall: 0.457
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 2
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 4
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 6
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 8
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Best Accuracy: 0.497
+Best Min_points: 4
+Best Epsilon: 14
+Best Metric: euclidean
+Removed Songs: 4
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.02
+Min_Points: 6
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.02
+Min_Points: 7
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 8
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.02
+Min_Points: 8
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.02
+Min_Points: 9
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 10
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 6
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 9
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 12
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 12
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 15
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 15
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 18
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 18
+Metric: euclidean
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 6
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 6
+Metric: cosine
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 9
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 9
+Metric: cosine
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 12
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 12
+Metric: cosine
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 15
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 15
+Metric: cosine
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 18
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 18
+Metric: cosine
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 6
+Metric: cityblock
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 9
+Metric: cityblock
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 12
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 12
+Metric: cityblock
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 15
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 15
+Metric: cityblock
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 18
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 18
+Metric: cityblock
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 6
+Metric: l1
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 9
+Metric: l1
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 12
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 12
+Metric: l1
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 15
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 15
+Metric: l1
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 18
+Metric: l1
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 18
+Metric: l1
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 6
+Metric: l2
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 9
+Metric: l2
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 12
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 12
+Metric: l2
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 15
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 15
+Metric: l2
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 18
+Metric: l2
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 18
+Metric: l2
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: hamming
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 6
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 9
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 12
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 12
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 15
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 15
+Metric: euclidean
+Removed Songs: 6100
+Epsilon: 0.01
+Min_Points: 18
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Removed Songs: 6100
+Epsilon: 0.11
+Min_Points: 18
+Metric: euclidean
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 6
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 2
+Epsilon: 0.11
+Min_Points: 6
+Metric: cosine
+Removed Songs: 2
+Epsilon: 0.01
+Min_Points: 9
+Metric: cosine
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']

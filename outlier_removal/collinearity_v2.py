@@ -30,7 +30,7 @@ def remove_collinearity(threshold):
             break
 
     df.drop(dropped_columns, axis = 1, inplace = True)
-    with open('outlier_removal/tests.txt','a') as f:
+    with open('outlier_removal/tests_v2.txt','a') as f:
         f.write("\nColinearity Threashold: " + str(threshold))
         f.write("\nDropped Columns: " + str(dropped_columns))
         
