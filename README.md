@@ -177,12 +177,13 @@ For each of the following parameters, different values (indicated in brackets) w
 * distance ["euclidean", "cosine", "cityblock", "l1", "l2", "hamming"] - the distance function used in DB-SCAN
 
 **Feature Reduction**
-* th [0.6, 0.8]- correlation threshold for feature reduction by mutlicollinearity analysis
+* th [0.6, 0.8] - correlation threshold for feature reduction by mutlicollinearity analysis
 
 **Support Vector Machine**
-* kernel: the kernel type used to transform the data
-* degree: if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
-* C: indicates how much incorrect classifications should be penalized
+* kernel [‘poly’, ‘rbf’, ‘sigmoid’] - the kernel type used to transform the data
+* degree [range from 1-10] - if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
+* C [range from 0.1-2.5] - indicates how much incorrect classifications should be penalized
+* break_ties [true, false] - if true, break ties according to confidence values
 
 ## Results and Discussion
 
