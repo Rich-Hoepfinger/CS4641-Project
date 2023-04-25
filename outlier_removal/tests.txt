@@ -3778,3 +3778,1381 @@ Min_Points: 9
 Metric: cosine
 Colinearity Threashold: 0.6
 Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: euclidean
+Removed Songs is 0, moving on...
+
+Removed Songs: 5982
+Epsilon: 1
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.536
+Precision: 0.543
+Recall: 0.533
+
+Removed Songs: 4207
+Epsilon: 2
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.534
+Precision: 0.53
+Recall: 0.531
+
+Removed Songs: 1801
+Epsilon: 3
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.55
+Precision: 0.537
+Recall: 0.542
+
+Removed Songs: 730
+Epsilon: 4
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.534
+Precision: 0.527
+Recall: 0.528
+
+Removed Songs: 324
+Epsilon: 5
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['danceability', 'energy', 'key', 'loudness', 'speechiness', 'acousticness', 'valence', 'tempo', 'duration_ms']
+Model: Neural Net
+Accuracy: 0.522
+Precision: 0.521
+Recall: 0.519
+
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.537
+Precision: 0.532
+Recall: 0.534
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.555
+Precision: 0.548
+Recall: 0.548
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.557
+Precision: 0.553
+Recall: 0.555
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.547
+Precision: 0.542
+Recall: 0.547
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.507
+Precision: 0.499
+Recall: 0.502
+
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.542
+Precision: 0.532
+Recall: 0.537
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.534
+Precision: 0.529
+Recall: 0.531
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.554
+Precision: 0.551
+Recall: 0.554
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.501
+Precision: 0.5
+Recall: 0.505
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.518
+Precision: 0.518
+Recall: 0.519
+
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.538
+Precision: 0.534
+Recall: 0.535
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.524
+Precision: 0.521
+Recall: 0.517
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.555
+Precision: 0.546
+Recall: 0.549
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.538
+Precision: 0.537
+Recall: 0.539
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.525
+Precision: 0.518
+Recall: 0.521
+
+Removed Songs: 1174
+Epsilon: 5
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.521
+Precision: 0.518
+Recall: 0.525
+
+Removed Songs: 94
+Epsilon: 9
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.544
+Precision: 0.537
+Recall: 0.538
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.546
+Precision: 0.54
+Recall: 0.54
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.524
+Precision: 0.527
+Recall: 0.526
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.538
+Precision: 0.53
+Recall: 0.535
+
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.537
+Precision: 0.531
+Recall: 0.529
+
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.542
+Precision: 0.535
+Recall: 0.54
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.52
+Precision: 0.521
+Recall: 0.522
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.549
+Precision: 0.547
+Recall: 0.546
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.523
+Precision: 0.523
+Recall: 0.521
+
+Removed Songs: 4742
+Epsilon: 5
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.535
+Precision: 0.535
+Recall: 0.534
+
+Removed Songs: 850
+Epsilon: 9
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.509
+Precision: 0.507
+Recall: 0.51
+
+Removed Songs: 161
+Epsilon: 13
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.516
+Precision: 0.514
+Recall: 0.516
+
+Removed Songs: 30
+Epsilon: 17
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.526
+Precision: 0.519
+Recall: 0.518
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.542
+Precision: 0.538
+Recall: 0.539
+
+Removed Songs: 5447
+Epsilon: 5
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.52
+Precision: 0.513
+Recall: 0.517
+
+Removed Songs: 1108
+Epsilon: 9
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.554
+Precision: 0.547
+Recall: 0.55
+
+Removed Songs: 223
+Epsilon: 13
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Model: Neural Net
+Accuracy: 0.55
+Precision: 0.546
+Recall: 0.545
+
+Removed Songs: 41
+Epsilon: 17
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.6
+Dropped Columns: ['loudness', 'acousticness']
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Best Accuracy: 0
+Best Min_points: 0
+Best Epsilon: 0
+Best Metric: None
+Removed Songs: 0
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: euclidean
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.513
+Precision: 0.507
+Recall: 0.506
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.513
+Precision: 0.511
+Recall: 0.513
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.544
+Precision: 0.544
+Recall: 0.541
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.536
+Precision: 0.533
+Recall: 0.539
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: euclidean
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.53
+Precision: 0.525
+Recall: 0.529
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.522
+Precision: 0.515
+Recall: 0.519
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.52
+Precision: 0.516
+Recall: 0.519
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.532
+Precision: 0.531
+Recall: 0.533
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: euclidean
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.549
+Precision: 0.551
+Recall: 0.549
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.523
+Precision: 0.516
+Recall: 0.517
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.52
+Precision: 0.517
+Recall: 0.519
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.522
+Precision: 0.525
+Recall: 0.525
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: euclidean
+Removed Songs: 1174
+Epsilon: 5
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.527
+Precision: 0.522
+Recall: 0.527
+
+Removed Songs: 94
+Epsilon: 9
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.538
+Precision: 0.531
+Recall: 0.532
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.56
+Precision: 0.554
+Recall: 0.552
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.541
+Precision: 0.534
+Recall: 0.534
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: cityblock
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: cityblock
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.535
+Precision: 0.53
+Recall: 0.529
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.535
+Precision: 0.531
+Recall: 0.531
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.533
+Precision: 0.531
+Recall: 0.526
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: cityblock
+Removed Songs: 4742
+Epsilon: 5
+Min_Points: 5
+Metric: cityblock
+Removed Songs: 850
+Epsilon: 9
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.542
+Precision: 0.538
+Recall: 0.539
+
+Removed Songs: 161
+Epsilon: 13
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.547
+Precision: 0.545
+Recall: 0.542
+
+Removed Songs: 30
+Epsilon: 17
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.547
+Precision: 0.545
+Recall: 0.546
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: cityblock
+Removed Songs: 5447
+Epsilon: 5
+Min_Points: 7
+Metric: cityblock
+Removed Songs: 1108
+Epsilon: 9
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.551
+Precision: 0.549
+Recall: 0.551
+
+Removed Songs: 223
+Epsilon: 13
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.514
+Precision: 0.514
+Recall: 0.511
+
+Removed Songs: 41
+Epsilon: 17
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.517
+Precision: 0.513
+Recall: 0.517
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: cityblock
+Removed Songs: 5832
+Epsilon: 5
+Min_Points: 9
+Metric: cityblock
+Removed Songs: 1310
+Epsilon: 9
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.516
+Precision: 0.509
+Recall: 0.509
+
+Removed Songs: 277
+Epsilon: 13
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.511
+Precision: 0.507
+Recall: 0.512
+
+Removed Songs: 50
+Epsilon: 17
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.524
+Precision: 0.518
+Recall: 0.523
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: l1
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: l1
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.528
+Precision: 0.522
+Recall: 0.523
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.535
+Precision: 0.531
+Recall: 0.53
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.559
+Precision: 0.554
+Recall: 0.554
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l1
+Removed Songs: 4742
+Epsilon: 5
+Min_Points: 5
+Metric: l1
+Removed Songs: 850
+Epsilon: 9
+Min_Points: 5
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.53
+Precision: 0.529
+Recall: 0.528
+
+Removed Songs: 161
+Epsilon: 13
+Min_Points: 5
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.546
+Precision: 0.546
+Recall: 0.545
+
+Removed Songs: 30
+Epsilon: 17
+Min_Points: 5
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.525
+Precision: 0.516
+Recall: 0.518
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l1
+Removed Songs: 5447
+Epsilon: 5
+Min_Points: 7
+Metric: l1
+Removed Songs: 1108
+Epsilon: 9
+Min_Points: 7
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.54
+Precision: 0.531
+Recall: 0.535
+
+Removed Songs: 223
+Epsilon: 13
+Min_Points: 7
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.51
+Precision: 0.506
+Recall: 0.509
+
+Removed Songs: 41
+Epsilon: 17
+Min_Points: 7
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.53
+Precision: 0.522
+Recall: 0.523
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l1
+Removed Songs: 5832
+Epsilon: 5
+Min_Points: 9
+Metric: l1
+Removed Songs: 1310
+Epsilon: 9
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.534
+Precision: 0.533
+Recall: 0.532
+
+Removed Songs: 277
+Epsilon: 13
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.54
+Precision: 0.54
+Recall: 0.538
+
+Removed Songs: 50
+Epsilon: 17
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.532
+Precision: 0.533
+Recall: 0.533
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: l2
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.526
+Precision: 0.524
+Recall: 0.522
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.538
+Precision: 0.532
+Recall: 0.533
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.513
+Precision: 0.515
+Recall: 0.51
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.536
+Precision: 0.525
+Recall: 0.522
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l2
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.524
+Precision: 0.526
+Recall: 0.524
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.526
+Precision: 0.527
+Recall: 0.522
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.516
+Precision: 0.511
+Recall: 0.512
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.505
+Precision: 0.498
+Recall: 0.501
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l2
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.52
+Precision: 0.514
+Recall: 0.515
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.533
+Precision: 0.533
+Recall: 0.531
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.534
+Precision: 0.527
+Recall: 0.527
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.525
+Precision: 0.516
+Recall: 0.521
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l2
+Removed Songs: 1174
+Epsilon: 5
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Model: Neural Net
+Accuracy: 0.523
+Precision: 0.519
+Recall: 0.52
+
+Removed Songs: 94
+Epsilon: 9
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.536
+Precision: 0.531
+Recall: 0.533
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.544
+Precision: 0.545
+Recall: 0.537
+
+Removed Songs: 2
+Epsilon: 17
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Model: Neural Net
+Accuracy: 0.526
+Precision: 0.519
+Recall: 0.518
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Best Accuracy: 0.56
+Best Min_points: 9
+Best Epsilon: 13
+Best Metric: euclidean
+Removed Songs: 9
+Model: SVM
+Accuracy: 0.59
+Precision: 0.583
+Recall: 0.585

@@ -94,11 +94,11 @@ methods = ["euclidean", "cosine", "cityblock", "l1", "l2", "hamming"]
 best_method = None
 prev_removed_songs = 0
 best_removed_songs = 0
-threshold = .6
+threshold = .8
 for method in methods:
-    for min_points in range(1,10):
+    for min_points in range(3,10, 2):
         prev_removed_songs = 0
-        for eps in range(1,100):
+        for eps in range(1,20,4):
             removed_songs = new_dbscan.dbscan_main(eps=eps, min_points=min_points,metric=method)
             if removed_songs == 0:
                 with open('outlier_removal/tests.txt','a') as f:
@@ -108,11 +108,12 @@ for method in methods:
                 with open('outlier_removal/tests.txt','a') as f:
                     f.write("\nRemoved Songs is the Same, moving on...\n")
                 break
+            if removed_songs > 3000:
+                continue
             prev_removed_songs = removed_songs
             zscore.zscore_main()
             collinearity.remove_collinearity(threshold=threshold)
-            # accuracy = SVM()
-            accuracy = decision_tree()
+            accuracy = neural_net()
             if best_accuracy < accuracy:
                 best_accuracy = accuracy
                 best_min_points = min_points
