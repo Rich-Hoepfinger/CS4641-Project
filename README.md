@@ -38,13 +38,21 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 
 This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found. 
 
-### Exploratory Data Visualization
-Below are some visualizations of the data:
-
-<iframe src="graphdisplay.html" width="832" height="519"></iframe>
-
 ### Removing Outliers with DBSCAN
-Outliers decreases the statistical power of tests we conduct during feature reduction and in training the model. Therefore, outlier removal was conducted as a preprocessing step, prior to normalization. DBScan is a clustering algorithm that can be used for outlier detection. For outlier detection, it's important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest.
+Outliers decreases the statistical power of tests we conduct during feature reduction and in training the model. Therefore, outlier removal was conducted as a preprocessing step, prior to normalization. DBScan is a clustering algorithm that can be used for outlier detection. For outlier detection, it's important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest. However, as a starting point, DB-SCAN was done using the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
+ 
+![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
+ 
+The red bubbles represent parameters which removed over 100 songs, & were judged to remove too many features. Orange bubbles removed under 10 songs, & were therefore ineffective at removing many outliers. Green bubbles are parameter combinations which removed between 10 & 100 songs. Black 'X's are combinations which didn't remove any songs. 
+
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset.
+
+### Exploratory Data Visualization
+Below are some visualizations of the data with outliers removed:
+<iframe src="graphdisplay.html" width="832" height="519"></iframe>
+<iframe src="Graphs/piechart.html" width="832" height="519"></iframe>
+
+Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
 ### Normalization
 Our dataset consists of numeric and categorical variables. Categorical variables, like key, time signature should be kept as is. Numeric variables are mostly already min-max normalized by Spotify. The only ones left unnormalized are popularity, tempo, and duration(ms). 
@@ -62,37 +70,11 @@ In order to reduce the time and space complexity of the model(s), feature reduct
 
 <iframe src="Graphs/CorrelationMatrix_zscore.html" width="832" height="519"></iframe>
 
-Using this correlation matrix, features were dropped until all correlation coefficients fell below a specified threshold. It was important to determine the right correlation threshold, as removing a variable could also cause the model performance to worsen. Due to this, a decision was made to test 2 thresholds: 0.6 and 0.8. A threshold of 0.6 means that we continue to remove variables until there are no pair of variables having > 0.6 positive/negative correlation with each other. Under a threshold of 0.6, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6.
+Using this correlation matrix, features were dropped until all correlation coefficients fell below a specified threshold. It was important to determine the right correlation threshold, as removing a variable could also cause the model performance to worsen. As a starting point, a threshold of 0.6 was selected. Under this threshold of 0.6, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6.
 
 <iframe src="Graphs/CorrelationMatrix_removed.html" width="832" height="519"></iframe>
 
-This selection of features did not raise performance compared to DB-Scanned data though. 
-
-### Hyperparameter Tuning
-
-For each of the following parameters, different values were tested to obtain the highest testing accuracy. The parameters are listed in terms of which model type they correspond to (neural net, KNN, decision tree, SVM):
-
-**All**
-* minPts - minimum number of points in neighborhood in DB-SCAN
-* epsilon - radius of hypersphere in DB-SCAN
-* distance - the distance function used in DB-SCAN
-* th - correlation threshold for feature reduction by mutlicollinearity analysis
-
-**Neural Net**
-
-
-**KNN**
-
-
-**Decision Tree**
-
-
-**Support Vector Machine**
-* kernel: the kernel type used to transform the data
-* degree: if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
-* C: indicates how much incorrect classifications should be penalized
-
-## Results and Discussion
+### Model Exploration
 
 Metrics from scikit learn : 
 * Accuracy_score : number of correct positives / whole sample  
@@ -102,7 +84,7 @@ shows how many genre classifications were predicted correctly out of all correct
 * Precision_score : true positives / (true positives + false positives)  
 reveals how many genre matches were actually of the correct genre, and was not a false positive
 
-As outlined in the methods, the supervised learning models we chose to use were Neural Networks, K-Nearest Neighbors, Decision Trees, and Support Vector Machines. All models were trained on ~4500 songs, and it was tested against ~1500 songs. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres. 
+As outlined in the methods, the supervised learning models we chose to use were Neural Networks, K-Nearest Neighbors, Decision Trees, and Support Vector Machines. All models were trained on ~4500 songs, and it was tested against ~1500 songs. 
 
 The genres were converted to labels on an interval of 0 to 11. These are the label representations : 
 
@@ -123,7 +105,7 @@ The genres were converted to labels on an interval of 0 to 11. These are the lab
 
 **Neural Network (Multi-layer Perceptron)**  : 
 
-After removing any outliers from the original data set, the following is the model’s prediction alongside its metrics.
+After removing outliers from the original data set, the following is the model’s prediction alongside its metrics.
 
 <iframe src="model/images/dbscan/dbNN.png" width="832" height="519"></iframe>
 
@@ -139,7 +121,7 @@ Accuracy: 52.2 %
 Precision: 51.7%
 Recall: 51.8%
 
-Using the reduced data set resulted in similar results. This is when the model was switched to KNN.
+Using the reduced data set resulted in similar results. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres.
 
 **K-Nearest Neighbors** : 
 Using the data set without outliers from performing DBscan, the following is the model prediction and metrics. 
@@ -172,7 +154,7 @@ Accuracy : 45%
 Precision : 44.9% 
 Recall : 45.2%
 
-After attempting to use Decision Trees as an alternative model, the accuracy was noticeable lower than using a neural network whether that be Multi-Layer Perceptron or K-Nearest Neighors. The accruacy is lower, which suggests that the model is still overfitting some data. Support Vector Machines can help mediate overfitting. 
+After attempting to use Decision Trees as an alternative model, the accuracy was noticeable lower than using a neural network whether that be Multi-Layer Perceptron or K-Nearest Neighors. The accuracy is lower, which suggests that the model is still overfitting some data. Support Vector Machines can help mediate overfitting through the regularization parameter, C. Hence, we attempted SVM on the dataset.
 
 **Support Vector Machine**:
 Using the data set with reduced features, the following is the model prediction and metrics. 
@@ -182,6 +164,27 @@ Using the data set with reduced features, the following is the model prediction 
 Accuracy : 59.9% 
 Precision : 58.9% 
 Recall : 59%
+
+This model performs considerably better than the other explored models. Hence, we decided to further pursue this model. To improve the model's performance, hyperparameter tuning was conducted.
+
+### Hyperparameter Tuning
+
+For each of the following parameters, different values were tested to obtain the highest testing accuracy.
+
+**DB-SCAN**
+* minPts - minimum number of points in neighborhood in DB-SCAN
+* epsilon - radius of hypersphere in DB-SCAN
+* distance - the distance function used in DB-SCAN
+
+**Feature Reduction**
+* th - correlation threshold for feature reduction by mutlicollinearity analysis
+
+**Support Vector Machine**
+* kernel: the kernel type used to transform the data
+* degree: if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
+* C: indicates how much incorrect classifications should be penalized
+
+## Results and Discussion
 
 ## Project Contributors
 
