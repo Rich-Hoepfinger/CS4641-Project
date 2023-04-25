@@ -5529,3 +5529,5 @@ Removed Songs is 0, moving on...
 Best Accuracy: 0.629
 Best Min_points: 3
 Best Epsilon: 10
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']

@@ -15,7 +15,7 @@ def remove_collinearity(threshold):
     features = df.iloc[:,:-1]
     dropped_columns = []
     while(not finished):
-        corrvals = features.corr(numeric_only= False)
+        corrvals = features.corr(numeric_only=False)
         removed = False
         for (i, column_name) in enumerate(corrvals):
             for j in range(i):

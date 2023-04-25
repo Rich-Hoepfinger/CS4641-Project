@@ -3094,3 +3094,7 @@ Best Min_points: 3
 Best Epsilon: 15
 Best Metric: cityblock
 Removed Songs: 42
+Removed Songs: 42
+Epsilon: 15
+Min_Points: 3
+Metric: cityblock
