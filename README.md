@@ -245,12 +245,13 @@ The diagram look much different in the 2nd experiment and produces a different o
 
 ![eps_avg_50](https://user-images.githubusercontent.com/106047524/234424259-4040c436-82e2-4495-a151-0a0d304650b9.png)
 
-50 replications gave maximum accuracy at $\epsilon = 13$. The crests and troughs are present still. This is a caveat that the dataset may not be 
+50 replications gave maximum accuracy at $\epsilon = 13$. The crests and troughs are present still. We conjured that as the clustering radius increased, the important representative songs of the genre in question are included, causing the accuracy to rise, but sometimes the disruptive, more ambiguous songs are included, outweighing the increase of representative songs. 
 
 ![minpts_avg_50](https://user-images.githubusercontent.com/106047524/234424278-91dfc38c-cc97-4a84-911c-46fb4fdb514c.png)
 
+With the same idea, we created a graph of average accuracy over 50 replications against min points. The optimal min points is 3. This aligns with our hyperparameter tuning. 
 
-Confusion Matrix
+**Confusion Matrix**
 
 ![confusionMatrix](https://user-images.githubusercontent.com/106047524/234429329-cfcfa193-e7ec-46f4-8cb1-c1561dd2174b.png)
 
