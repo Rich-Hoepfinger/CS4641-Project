@@ -241,7 +241,7 @@ There is a clear maximum at $\epsilon = 9$. In an attempt to verify the stabilit
 
 ![eps_10avg_2](https://user-images.githubusercontent.com/106047524/234424235-a98585f2-dd53-4866-887c-0bc565153086.png)
 
-The diagram look much different in the 2nd experiment and produces a different optimal $\epsilon$. Since DBScan relies heavily on the initial points, to reduce the randomness incurred by the initialisation, it was decided to increase the replication number to 50. All points will be selected as starting points eventually as replication number goes to infinity. That way we reduce the effect of initialization on a certain point. 
+The diagram looks much different in the 2nd experiment and produces a different optimal $\epsilon$. Since DBScan relies heavily on the initial points, to reduce the randomness incurred by the initialisation, it was decided to increase the replication number to 50. All points will be selected as starting points eventually as replication number goes to infinity. That way we reduce the effect of initialization on a certain point. 
 
 ![eps_avg_50](https://user-images.githubusercontent.com/106047524/234424259-4040c436-82e2-4495-a151-0a0d304650b9.png)
 
@@ -252,9 +252,14 @@ The diagram look much different in the 2nd experiment and produces a different o
 With the same idea, we created a graph of average accuracy over 50 replications against min points. The optimal min points is 3. This aligns with our hyperparameter tuning. 
 
 **Confusion Matrix**
+The following confusion matrix was generated for the best model obtained (SVM):
 
 ![confusionMatrix](https://user-images.githubusercontent.com/106047524/234429329-cfcfa193-e7ec-46f4-8cb1-c1561dd2174b.png)
 
+The model has lower accuracy in predicting songs belonging to Pop, R&B, and Rock. This makes sense since these genres are often incorporated with other songs, making it difficult to accurately and reliably determine a single genre for those songs. Meanwhile, the model performed the best in predicting the genre for Jazz and Orchestral songs. This also makes sense since these songs tend to sound distinctly different compared to the other included genres.
+
+**Conclusion**
+In conclusion, the use of deep learning in our project did not lead to greater accuracy in predicting the genre of songs. It is possible that this could be because of insufficient data. Regardless of this, the best model (SVM) still had a lower than ideal accuracy of around 63%. This indicates that perhaps simply using Spotify metadata may not be sufficient in accurately predicting song genres since no temporal information is included.
 
 ## Project Contributors
 
