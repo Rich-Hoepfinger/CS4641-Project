@@ -65,6 +65,26 @@ def SVM():
         f.write("\nPrecision: " + str(precision))
         f.write("\nRecall: " + str(recall) + "\n")
         return accuracy
+    
+def decision_tree():
+    X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.25)
+    scaler = StandardScaler()  
+    scaler.fit(X_train)  
+    X_train = scaler.transform(X_train)  
+    X_test = scaler.transform(X_test)
+    model = tree.DecisionTreeClassifier(criterion = 'entropy', splitter = 'best').fit(X_train, y_train)
+
+
+    yPredicted = model.predict(X_test)
+    with open('outlier_removal/tests.txt','a') as f:
+        accuracy = metrics.accuracy_score(y_test, yPredicted).round(3)
+        precision = metrics.precision_score(y_test, yPredicted, average="macro").round(3)
+        recall = metrics.recall_score(y_test, yPredicted, average="macro").round(3)
+        f.write("\nModel: Decision Tree")
+        f.write("\nAccuracy: " + str(accuracy))
+        f.write("\nPrecision: " + str(precision))
+        f.write("\nRecall: " + str(recall) + "\n")
+        return accuracy
 
 #dupremoved -> dbscan -> zscore -> collinearity -> k nearest neighbors
 best_accuracy = 0
@@ -74,6 +94,7 @@ methods = ["euclidean", "cosine", "cityblock", "l1", "l2", "hamming"]
 best_method = None
 prev_removed_songs = 0
 best_removed_songs = 0
+threshold = .6
 for method in methods:
     for min_points in range(1,10):
         prev_removed_songs = 0
@@ -89,8 +110,9 @@ for method in methods:
                 break
             prev_removed_songs = removed_songs
             zscore.zscore_main()
-            collinearity.remove_collinearity(threshold=.8)
-            accuracy = SVM()
+            collinearity.remove_collinearity(threshold=threshold)
+            # accuracy = SVM()
+            accuracy = decision_tree()
             if best_accuracy < accuracy:
                 best_accuracy = accuracy
                 best_min_points = min_points
