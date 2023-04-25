@@ -1,0 +1,3096 @@
+
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 5
+Metric: euclidean
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: euclidean
+Removed Songs is 0, moving on...
+
+Removed Songs: 5982
+Epsilon: 1
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6147
+Precision: 0.623
+Recall: 0.623
+
+Removed Songs: 4207
+Epsilon: 2
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6160000000000001
+Precision: 0.6258999999999999
+Recall: 0.6249
+
+Removed Songs: 1801
+Epsilon: 3
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6152000000000001
+Precision: 0.6226
+Recall: 0.6211000000000001
+
+Removed Songs: 730
+Epsilon: 4
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6072
+Precision: 0.6176
+Recall: 0.6172
+
+Removed Songs: 324
+Epsilon: 5
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6174
+Precision: 0.6296000000000002
+Recall: 0.6269
+
+Removed Songs: 171
+Epsilon: 6
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6065
+Precision: 0.6162
+Recall: 0.6133
+
+Removed Songs: 90
+Epsilon: 7
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6205
+Precision: 0.6296
+Recall: 0.6277
+
+Removed Songs: 47
+Epsilon: 8
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6234
+Precision: 0.6323000000000001
+Recall: 0.6307999999999999
+
+Removed Songs: 25
+Epsilon: 9
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.617
+Precision: 0.6253
+Recall: 0.6253
+
+Removed Songs: 12
+Epsilon: 10
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6118
+Precision: 0.6207
+Recall: 0.6187
+
+Removed Songs: 7
+Epsilon: 11
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6119999999999999
+Precision: 0.6202000000000001
+Recall: 0.6183
+
+Removed Songs: 3
+Epsilon: 12
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6156
+Precision: 0.6253000000000001
+Recall: 0.6239
+
+Removed Songs: 2
+Epsilon: 13
+Min_Points: 2
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6167
+Precision: 0.627
+Recall: 0.6253000000000001
+
+Removed Songs: 2
+Epsilon: 14
+Min_Points: 2
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['energy', 'key', 'loudness', 'speechiness', 'valence', 'tempo']
+Accuracy: 0.619
+Precision: 0.6268999999999999
+Recall: 0.6256
+
+Removed Songs: 5145
+Epsilon: 2
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6194999999999999
+Precision: 0.6291
+Recall: 0.6279
+
+Removed Songs: 2295
+Epsilon: 3
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6199
+Precision: 0.6315999999999999
+Recall: 0.6286000000000002
+
+Removed Songs: 976
+Epsilon: 4
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6126999999999999
+Precision: 0.6209
+Recall: 0.6195
+
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6140999999999999
+Precision: 0.6239
+Recall: 0.6221
+
+Removed Songs: 213
+Epsilon: 6
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6146
+Precision: 0.6245
+Recall: 0.6216
+
+Removed Songs: 112
+Epsilon: 7
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.61
+Precision: 0.6197
+Recall: 0.6191000000000001
+
+Removed Songs: 65
+Epsilon: 8
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6205
+Precision: 0.6308
+Recall: 0.6281000000000001
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6138
+Precision: 0.6226
+Recall: 0.6209
+
+Removed Songs: 20
+Epsilon: 10
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6098
+Precision: 0.6186
+Recall: 0.6172
+
+Removed Songs: 11
+Epsilon: 11
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6161
+Precision: 0.6267
+Recall: 0.6236999999999999
+
+Removed Songs: 5
+Epsilon: 12
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6232000000000001
+Precision: 0.63
+Recall: 0.6298
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6123999999999999
+Precision: 0.622
+Recall: 0.6193
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 3
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6124
+Precision: 0.6214
+Recall: 0.6188
+
+Removed Songs: 5718
+Epsilon: 2
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6101
+Precision: 0.6201000000000001
+Recall: 0.6194
+
+Removed Songs: 2965
+Epsilon: 3
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6155999999999999
+Precision: 0.6236
+Recall: 0.6218
+
+Removed Songs: 1273
+Epsilon: 4
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6195999999999999
+Precision: 0.6287
+Recall: 0.6262000000000001
+
+Removed Songs: 595
+Epsilon: 5
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6158
+Precision: 0.6242
+Recall: 0.6232
+
+Removed Songs: 285
+Epsilon: 6
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6123
+Precision: 0.6213
+Recall: 0.6201000000000001
+
+Removed Songs: 138
+Epsilon: 7
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6197999999999999
+Precision: 0.6287
+Recall: 0.6278
+
+Removed Songs: 77
+Epsilon: 8
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6154999999999999
+Precision: 0.6248
+Recall: 0.6233
+
+Removed Songs: 42
+Epsilon: 9
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6188
+Precision: 0.6283
+Recall: 0.626
+
+Removed Songs: 21
+Epsilon: 10
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6126
+Precision: 0.6204
+Recall: 0.6216999999999999
+
+Removed Songs: 15
+Epsilon: 11
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6202000000000001
+Precision: 0.6281
+Recall: 0.6287
+
+Removed Songs: 7
+Epsilon: 12
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6169
+Precision: 0.6269
+Recall: 0.6247
+
+Removed Songs: 5
+Epsilon: 13
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6153
+Precision: 0.6246
+Recall: 0.6216999999999999
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6129
+Precision: 0.6210999999999999
+Recall: 0.6209
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 4
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6138
+Precision: 0.6232
+Recall: 0.6209
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 4
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6169
+Precision: 0.628
+Recall: 0.6255
+
+Removed Songs: 5953
+Epsilon: 2
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6083000000000001
+Precision: 0.6178000000000001
+Recall: 0.6147000000000001
+
+Removed Songs: 3617
+Epsilon: 3
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6156
+Precision: 0.6254
+Recall: 0.6217
+
+Removed Songs: 1509
+Epsilon: 4
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.611
+Precision: 0.6193000000000001
+Recall: 0.6161999999999999
+
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6167
+Precision: 0.6237999999999999
+Recall: 0.6239000000000001
+
+Removed Songs: 343
+Epsilon: 6
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6132
+Precision: 0.6223
+Recall: 0.6212
+
+Removed Songs: 175
+Epsilon: 7
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6191
+Precision: 0.6272000000000001
+Recall: 0.626
+
+Removed Songs: 97
+Epsilon: 8
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.616
+Precision: 0.6254
+Recall: 0.6236999999999999
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6184999999999999
+Precision: 0.6308
+Recall: 0.6289
+
+Removed Songs: 27
+Epsilon: 10
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6083
+Precision: 0.6188
+Recall: 0.6166
+
+Removed Songs: 16
+Epsilon: 11
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6133
+Precision: 0.6226999999999999
+Recall: 0.62
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6093
+Precision: 0.6183
+Recall: 0.6174
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6147
+Precision: 0.6247
+Recall: 0.6208
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6161
+Precision: 0.6252000000000001
+Recall: 0.6241
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 5
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6125999999999999
+Precision: 0.6219
+Recall: 0.6201000000000001
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 5
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6115
+Precision: 0.62
+Recall: 0.6194000000000001
+
+Removed Songs: 6058
+Epsilon: 2
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6158999999999999
+Precision: 0.6235999999999999
+Recall: 0.6245999999999999
+
+Removed Songs: 4050
+Epsilon: 3
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6143000000000001
+Precision: 0.6234
+Recall: 0.6220000000000001
+
+Removed Songs: 1769
+Epsilon: 4
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.609
+Precision: 0.6193
+Recall: 0.6162999999999998
+
+Removed Songs: 837
+Epsilon: 5
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6168
+Precision: 0.6272
+Recall: 0.6266999999999999
+
+Removed Songs: 425
+Epsilon: 6
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6077999999999999
+Precision: 0.6166999999999999
+Recall: 0.6164999999999999
+
+Removed Songs: 215
+Epsilon: 7
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.619
+Precision: 0.6283
+Recall: 0.6250000000000001
+
+Removed Songs: 110
+Epsilon: 8
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6125999999999999
+Precision: 0.6225
+Recall: 0.6219
+
+Removed Songs: 56
+Epsilon: 9
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6163
+Precision: 0.6255
+Recall: 0.6244
+
+Removed Songs: 33
+Epsilon: 10
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.621
+Precision: 0.6304000000000001
+Recall: 0.6292
+
+Removed Songs: 19
+Epsilon: 11
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6211
+Precision: 0.6289000000000001
+Recall: 0.6271
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6155
+Precision: 0.6239
+Recall: 0.6217
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6184000000000001
+Precision: 0.6279
+Recall: 0.625
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6167999999999999
+Precision: 0.6273000000000001
+Recall: 0.6252000000000001
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 6
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6188
+Precision: 0.6281999999999999
+Recall: 0.6256999999999999
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 6
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6140999999999999
+Precision: 0.6252000000000001
+Recall: 0.6214999999999999
+
+Removed Songs: 6093
+Epsilon: 2
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['liveness', 'tempo']
+Accuracy: 0.6159
+Precision: 0.6257999999999999
+Recall: 0.6248
+
+Removed Songs: 4532
+Epsilon: 3
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6163000000000001
+Precision: 0.6276999999999999
+Recall: 0.6245
+
+Removed Songs: 1994
+Epsilon: 4
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6168
+Precision: 0.6240000000000001
+Recall: 0.6242
+
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6178
+Precision: 0.6272
+Recall: 0.6261999999999999
+
+Removed Songs: 489
+Epsilon: 6
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6159
+Precision: 0.6250000000000001
+Recall: 0.6246
+
+Removed Songs: 245
+Epsilon: 7
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6195999999999999
+Precision: 0.6277
+Recall: 0.6269
+
+Removed Songs: 135
+Epsilon: 8
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6141
+Precision: 0.6220000000000001
+Recall: 0.6221000000000001
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6134
+Precision: 0.6221999999999999
+Recall: 0.6213000000000001
+
+Removed Songs: 36
+Epsilon: 10
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6159
+Precision: 0.6239
+Recall: 0.6224000000000001
+
+Removed Songs: 20
+Epsilon: 11
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6195
+Precision: 0.6291
+Recall: 0.6269999999999999
+
+Removed Songs: 10
+Epsilon: 12
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6183
+Precision: 0.6268
+Recall: 0.6254
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6147
+Precision: 0.6241
+Recall: 0.6222
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6114999999999999
+Precision: 0.6184
+Recall: 0.6172
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 7
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6202
+Precision: 0.6291
+Recall: 0.6272999999999999
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 7
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6092
+Precision: 0.6178
+Recall: 0.6177
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: euclidean
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6159000000000001
+Precision: 0.6251
+Recall: 0.6247
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: euclidean
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 2
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 4
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 6
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 8
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: cosine
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: cityblock
+Removed Songs is 0, moving on...
+
+Removed Songs: 6090
+Epsilon: 1
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6166
+Precision: 0.6258999999999999
+Recall: 0.6238
+
+Removed Songs: 5938
+Epsilon: 2
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6144999999999998
+Precision: 0.6228
+Recall: 0.6211
+
+Removed Songs: 5355
+Epsilon: 3
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6151
+Precision: 0.6219
+Recall: 0.6216
+
+Removed Songs: 4181
+Epsilon: 4
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6139
+Precision: 0.6231
+Recall: 0.6225999999999999
+
+Removed Songs: 2769
+Epsilon: 5
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6129999999999999
+Precision: 0.6220000000000001
+Recall: 0.6199000000000001
+
+Removed Songs: 1729
+Epsilon: 6
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6146999999999998
+Precision: 0.6215
+Recall: 0.6209
+
+Removed Songs: 1084
+Epsilon: 7
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6167
+Precision: 0.6257
+Recall: 0.6252000000000001
+
+Removed Songs: 650
+Epsilon: 8
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6216000000000002
+Precision: 0.6319999999999999
+Recall: 0.6298
+
+Removed Songs: 408
+Epsilon: 9
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6129999999999999
+Precision: 0.6222
+Recall: 0.621
+
+Removed Songs: 254
+Epsilon: 10
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6195999999999999
+Precision: 0.6293
+Recall: 0.6273
+
+Removed Songs: 163
+Epsilon: 11
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6148
+Precision: 0.6235999999999999
+Recall: 0.6214999999999999
+
+Removed Songs: 122
+Epsilon: 12
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6068
+Precision: 0.6177
+Recall: 0.6143
+
+Removed Songs: 84
+Epsilon: 13
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6163
+Precision: 0.6241000000000001
+Recall: 0.6244999999999999
+
+Removed Songs: 54
+Epsilon: 14
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6173
+Precision: 0.6271
+Recall: 0.6252000000000001
+
+Removed Songs: 30
+Epsilon: 15
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6207
+Precision: 0.6292000000000001
+Recall: 0.6281
+
+Removed Songs: 21
+Epsilon: 16
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6169
+Precision: 0.6277
+Recall: 0.6246
+
+Removed Songs: 13
+Epsilon: 17
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6213
+Precision: 0.6321
+Recall: 0.6284
+
+Removed Songs: 10
+Epsilon: 18
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6195999999999999
+Precision: 0.6303
+Recall: 0.6268
+
+Removed Songs: 7
+Epsilon: 19
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6223000000000001
+Precision: 0.6303
+Recall: 0.6270999999999999
+
+Removed Songs: 6
+Epsilon: 20
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6154
+Precision: 0.6253
+Recall: 0.6237000000000001
+
+Removed Songs: 4
+Epsilon: 21
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6178
+Precision: 0.6265
+Recall: 0.6243
+
+Removed Songs: 2
+Epsilon: 22
+Min_Points: 2
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6163000000000001
+Precision: 0.624
+Recall: 0.6226
+
+Removed Songs: 2
+Epsilon: 23
+Min_Points: 2
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6125
+Precision: 0.6216999999999999
+Recall: 0.6195999999999999
+
+Removed Songs: 6088
+Epsilon: 2
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['key', 'loudness', 'tempo']
+Accuracy: 0.6115999999999999
+Precision: 0.6239000000000001
+Recall: 0.6198999999999999
+
+Removed Songs: 5851
+Epsilon: 3
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6166999999999999
+Precision: 0.6245
+Recall: 0.6228
+
+Removed Songs: 5007
+Epsilon: 4
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6127
+Precision: 0.6203000000000001
+Recall: 0.6186
+
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6193000000000001
+Precision: 0.6302000000000001
+Recall: 0.6258000000000001
+
+Removed Songs: 2147
+Epsilon: 6
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6138
+Precision: 0.6231
+Recall: 0.6221
+
+Removed Songs: 1380
+Epsilon: 7
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6205999999999999
+Precision: 0.6296999999999999
+Recall: 0.6274000000000001
+
+Removed Songs: 836
+Epsilon: 8
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6205
+Precision: 0.6312
+Recall: 0.6283
+
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6182000000000001
+Precision: 0.6266
+Recall: 0.6262
+
+Removed Songs: 328
+Epsilon: 10
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6154999999999999
+Precision: 0.6237
+Recall: 0.6224
+
+Removed Songs: 203
+Epsilon: 11
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6157999999999999
+Precision: 0.6261999999999999
+Recall: 0.6229
+
+Removed Songs: 150
+Epsilon: 12
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6079000000000001
+Precision: 0.6192
+Recall: 0.6172000000000001
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6181
+Precision: 0.6258999999999999
+Recall: 0.6214999999999999
+
+Removed Songs: 68
+Epsilon: 14
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6170000000000001
+Precision: 0.625
+Recall: 0.6233
+
+Removed Songs: 42
+Epsilon: 15
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6256
+Precision: 0.6342000000000001
+Recall: 0.6343000000000001
+
+Removed Songs: 31
+Epsilon: 16
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6173
+Precision: 0.6269
+Recall: 0.6235999999999999
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6242
+Precision: 0.6331
+Recall: 0.632
+
+Removed Songs: 16
+Epsilon: 18
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6170000000000001
+Precision: 0.6268999999999999
+Recall: 0.6254000000000001
+
+Removed Songs: 11
+Epsilon: 19
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6131999999999999
+Precision: 0.6224999999999999
+Recall: 0.6222
+
+Removed Songs: 10
+Epsilon: 20
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6211
+Precision: 0.629
+Recall: 0.6286
+
+Removed Songs: 6
+Epsilon: 21
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6199
+Precision: 0.6287999999999999
+Recall: 0.6244
+
+Removed Songs: 4
+Epsilon: 22
+Min_Points: 3
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6166
+Precision: 0.6250000000000001
+Recall: 0.6241
+
+Removed Songs: 4
+Epsilon: 23
+Min_Points: 3
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6188
+Precision: 0.6279999999999999
+Recall: 0.6274000000000001
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 4
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6146999999999998
+Precision: 0.6236999999999999
+Recall: 0.6212
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 5
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6155999999999999
+Precision: 0.6244
+Recall: 0.6225999999999999
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 6
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6126000000000001
+Precision: 0.6219
+Recall: 0.6212
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 7
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6145999999999999
+Precision: 0.6240000000000001
+Recall: 0.6216
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: cityblock
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6184999999999999
+Precision: 0.6287999999999999
+Recall: 0.6241000000000001
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: cityblock
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: l1
+Removed Songs is 0, moving on...
+
+Removed Songs: 6090
+Epsilon: 1
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.616
+Precision: 0.6254000000000001
+Recall: 0.6226999999999999
+
+Removed Songs: 5938
+Epsilon: 2
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6136
+Precision: 0.6237000000000001
+Recall: 0.6218000000000001
+
+Removed Songs: 5355
+Epsilon: 3
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6217
+Precision: 0.6314
+Recall: 0.6294000000000001
+
+Removed Songs: 4181
+Epsilon: 4
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6211
+Precision: 0.6300999999999999
+Recall: 0.6273
+
+Removed Songs: 2769
+Epsilon: 5
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6113999999999999
+Precision: 0.6201
+Recall: 0.6202
+
+Removed Songs: 1729
+Epsilon: 6
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6162
+Precision: 0.6264000000000001
+Recall: 0.6262
+
+Removed Songs: 1084
+Epsilon: 7
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6113999999999999
+Precision: 0.6219
+Recall: 0.6201
+
+Removed Songs: 650
+Epsilon: 8
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6154999999999999
+Precision: 0.6223
+Recall: 0.6226999999999999
+
+Removed Songs: 408
+Epsilon: 9
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6201999999999999
+Precision: 0.6287
+Recall: 0.6276
+
+Removed Songs: 254
+Epsilon: 10
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6156999999999999
+Precision: 0.625
+Recall: 0.6243000000000001
+
+Removed Songs: 163
+Epsilon: 11
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6153000000000001
+Precision: 0.6248
+Recall: 0.6214000000000001
+
+Removed Songs: 122
+Epsilon: 12
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6249999999999999
+Precision: 0.6354
+Recall: 0.632
+
+Removed Songs: 84
+Epsilon: 13
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6173
+Precision: 0.6264000000000001
+Recall: 0.6234
+
+Removed Songs: 54
+Epsilon: 14
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6134000000000001
+Precision: 0.6231
+Recall: 0.6202
+
+Removed Songs: 30
+Epsilon: 15
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6182
+Precision: 0.6266
+Recall: 0.6243
+
+Removed Songs: 21
+Epsilon: 16
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6177999999999999
+Precision: 0.6277999999999999
+Recall: 0.6256
+
+Removed Songs: 13
+Epsilon: 17
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6163000000000001
+Precision: 0.6258
+Recall: 0.6232
+
+Removed Songs: 10
+Epsilon: 18
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6176999999999999
+Precision: 0.6265000000000001
+Recall: 0.623
+
+Removed Songs: 7
+Epsilon: 19
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6188
+Precision: 0.6288
+Recall: 0.6272000000000001
+
+Removed Songs: 6
+Epsilon: 20
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6211
+Precision: 0.6289
+Recall: 0.628
+
+Removed Songs: 4
+Epsilon: 21
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6155999999999999
+Precision: 0.6265999999999999
+Recall: 0.6227000000000001
+
+Removed Songs: 2
+Epsilon: 22
+Min_Points: 2
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6196
+Precision: 0.6278
+Recall: 0.6251999999999999
+
+Removed Songs: 2
+Epsilon: 23
+Min_Points: 2
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6138999999999999
+Precision: 0.6223000000000001
+Recall: 0.6228
+
+Removed Songs: 6088
+Epsilon: 2
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['key', 'loudness', 'tempo']
+Accuracy: 0.6206
+Precision: 0.6287
+Recall: 0.6278999999999998
+
+Removed Songs: 5851
+Epsilon: 3
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.622
+Precision: 0.6312
+Recall: 0.629
+
+Removed Songs: 5007
+Epsilon: 4
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.611
+Precision: 0.621
+Recall: 0.6181
+
+Removed Songs: 3449
+Epsilon: 5
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6117999999999999
+Precision: 0.6203
+Recall: 0.6197
+
+Removed Songs: 2147
+Epsilon: 6
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.617
+Precision: 0.6269
+Recall: 0.623
+
+Removed Songs: 1380
+Epsilon: 7
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6201
+Precision: 0.6291000000000001
+Recall: 0.6278
+
+Removed Songs: 836
+Epsilon: 8
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6154
+Precision: 0.6225
+Recall: 0.6226
+
+Removed Songs: 512
+Epsilon: 9
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6161000000000001
+Precision: 0.6256
+Recall: 0.6247
+
+Removed Songs: 328
+Epsilon: 10
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6124999999999999
+Precision: 0.6217999999999999
+Recall: 0.6213000000000001
+
+Removed Songs: 203
+Epsilon: 11
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6205
+Precision: 0.6279999999999999
+Recall: 0.6259
+
+Removed Songs: 150
+Epsilon: 12
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6166999999999999
+Precision: 0.6252999999999999
+Recall: 0.6228
+
+Removed Songs: 104
+Epsilon: 13
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6112
+Precision: 0.6212
+Recall: 0.617
+
+Removed Songs: 68
+Epsilon: 14
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6148
+Precision: 0.624
+Recall: 0.6219
+
+Removed Songs: 42
+Epsilon: 15
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.618
+Precision: 0.6265
+Recall: 0.6255
+
+Removed Songs: 31
+Epsilon: 16
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6127999999999999
+Precision: 0.6205
+Recall: 0.6181
+
+Removed Songs: 19
+Epsilon: 17
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6157999999999999
+Precision: 0.6235999999999999
+Recall: 0.623
+
+Removed Songs: 16
+Epsilon: 18
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6108999999999999
+Precision: 0.6193
+Recall: 0.6179000000000001
+
+Removed Songs: 11
+Epsilon: 19
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6187999999999999
+Precision: 0.6277
+Recall: 0.6265000000000001
+
+Removed Songs: 10
+Epsilon: 20
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6147
+Precision: 0.6232
+Recall: 0.6207999999999999
+
+Removed Songs: 6
+Epsilon: 21
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6121
+Precision: 0.6225999999999999
+Recall: 0.6201
+
+Removed Songs: 4
+Epsilon: 22
+Min_Points: 3
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.616
+Precision: 0.6245
+Recall: 0.6231000000000001
+
+Removed Songs: 4
+Epsilon: 23
+Min_Points: 3
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6151
+Precision: 0.625
+Recall: 0.6213
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 4
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6113000000000001
+Precision: 0.6224000000000001
+Recall: 0.6203
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 5
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6165999999999999
+Precision: 0.6267
+Recall: 0.6239
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 6
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.618
+Precision: 0.6255
+Recall: 0.6245
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 7
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6213
+Precision: 0.6295
+Recall: 0.6289999999999999
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l1
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6182
+Precision: 0.6264000000000001
+Recall: 0.6237
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: l1
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: l2
+Removed Songs is 0, moving on...
+
+Removed Songs: 5982
+Epsilon: 1
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6165
+Precision: 0.6248
+Recall: 0.6224000000000001
+
+Removed Songs: 4207
+Epsilon: 2
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6176999999999999
+Precision: 0.6247
+Recall: 0.6237999999999999
+
+Removed Songs: 1801
+Epsilon: 3
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6179
+Precision: 0.6259
+Recall: 0.6245999999999999
+
+Removed Songs: 730
+Epsilon: 4
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6226
+Precision: 0.6324
+Recall: 0.6296999999999999
+
+Removed Songs: 324
+Epsilon: 5
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6146999999999999
+Precision: 0.6227
+Recall: 0.622
+
+Removed Songs: 171
+Epsilon: 6
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6197999999999999
+Precision: 0.6291
+Recall: 0.6272
+
+Removed Songs: 90
+Epsilon: 7
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6225
+Precision: 0.6308
+Recall: 0.6283000000000001
+
+Removed Songs: 47
+Epsilon: 8
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6165999999999999
+Precision: 0.6264
+Recall: 0.624
+
+Removed Songs: 25
+Epsilon: 9
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6151
+Precision: 0.6241
+Recall: 0.6224999999999999
+
+Removed Songs: 12
+Epsilon: 10
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6102
+Precision: 0.6174
+Recall: 0.6173000000000001
+
+Removed Songs: 7
+Epsilon: 11
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6242000000000001
+Precision: 0.6321000000000001
+Recall: 0.6325000000000001
+
+Removed Songs: 3
+Epsilon: 12
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6162000000000001
+Precision: 0.6235
+Recall: 0.6225
+
+Removed Songs: 2
+Epsilon: 13
+Min_Points: 2
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6186999999999999
+Precision: 0.6294000000000001
+Recall: 0.6259
+
+Removed Songs: 2
+Epsilon: 14
+Min_Points: 2
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6094
+Epsilon: 1
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['energy', 'key', 'loudness', 'speechiness', 'valence', 'tempo']
+Accuracy: 0.6136
+Precision: 0.6226999999999999
+Recall: 0.6221
+
+Removed Songs: 5145
+Epsilon: 2
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6148999999999999
+Precision: 0.6243
+Recall: 0.6227
+
+Removed Songs: 2295
+Epsilon: 3
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6172
+Precision: 0.6279
+Recall: 0.6244
+
+Removed Songs: 976
+Epsilon: 4
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6156
+Precision: 0.6246
+Recall: 0.6225999999999999
+
+Removed Songs: 432
+Epsilon: 5
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6169999999999999
+Precision: 0.6262
+Recall: 0.6231
+
+Removed Songs: 213
+Epsilon: 6
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6199
+Precision: 0.6284
+Recall: 0.6268
+
+Removed Songs: 112
+Epsilon: 7
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6241
+Precision: 0.6334000000000001
+Recall: 0.6317
+
+Removed Songs: 65
+Epsilon: 8
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6138
+Precision: 0.6221
+Recall: 0.6205
+
+Removed Songs: 41
+Epsilon: 9
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6194
+Precision: 0.6285000000000001
+Recall: 0.6244000000000001
+
+Removed Songs: 20
+Epsilon: 10
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6149
+Precision: 0.6235
+Recall: 0.6209999999999999
+
+Removed Songs: 11
+Epsilon: 11
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6142999999999998
+Precision: 0.6253
+Recall: 0.6217
+
+Removed Songs: 5
+Epsilon: 12
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6139
+Precision: 0.6239999999999999
+Recall: 0.6226
+
+Removed Songs: 4
+Epsilon: 13
+Min_Points: 3
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.615
+Precision: 0.6243000000000001
+Recall: 0.6214999999999999
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 3
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.62
+Precision: 0.6284000000000001
+Recall: 0.6268
+
+Removed Songs: 5718
+Epsilon: 2
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6151
+Precision: 0.6255999999999999
+Recall: 0.6232
+
+Removed Songs: 2965
+Epsilon: 3
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6159999999999999
+Precision: 0.624
+Recall: 0.6228999999999999
+
+Removed Songs: 1273
+Epsilon: 4
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6103
+Precision: 0.6199999999999999
+Recall: 0.6193
+
+Removed Songs: 595
+Epsilon: 5
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6152
+Precision: 0.6241000000000001
+Recall: 0.6220999999999999
+
+Removed Songs: 285
+Epsilon: 6
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6226
+Precision: 0.6295999999999999
+Recall: 0.631
+
+Removed Songs: 138
+Epsilon: 7
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6168
+Precision: 0.6261000000000001
+Recall: 0.6241000000000001
+
+Removed Songs: 77
+Epsilon: 8
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6105
+Precision: 0.6197999999999999
+Recall: 0.6196999999999999
+
+Removed Songs: 42
+Epsilon: 9
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6176999999999999
+Precision: 0.6263
+Recall: 0.6254000000000001
+
+Removed Songs: 21
+Epsilon: 10
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6096999999999999
+Precision: 0.6201
+Recall: 0.6191
+
+Removed Songs: 15
+Epsilon: 11
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6199
+Precision: 0.6298
+Recall: 0.6264000000000001
+
+Removed Songs: 7
+Epsilon: 12
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6220999999999999
+Precision: 0.6299
+Recall: 0.6264
+
+Removed Songs: 5
+Epsilon: 13
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6172000000000001
+Precision: 0.6241999999999999
+Recall: 0.6244000000000001
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6154
+Precision: 0.6240000000000001
+Recall: 0.6226
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 4
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6222
+Precision: 0.6316
+Recall: 0.6311
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 4
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6154
+Precision: 0.6255
+Recall: 0.6226
+
+Removed Songs: 5953
+Epsilon: 2
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6158
+Precision: 0.6271
+Recall: 0.6234
+
+Removed Songs: 3617
+Epsilon: 3
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6161000000000001
+Precision: 0.6270000000000001
+Recall: 0.6242000000000001
+
+Removed Songs: 1509
+Epsilon: 4
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6143
+Precision: 0.6224000000000001
+Recall: 0.622
+
+Removed Songs: 703
+Epsilon: 5
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6108999999999999
+Precision: 0.6228
+Recall: 0.6189
+
+Removed Songs: 343
+Epsilon: 6
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6153
+Precision: 0.6228
+Recall: 0.6216
+
+Removed Songs: 175
+Epsilon: 7
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6201
+Precision: 0.6287
+Recall: 0.6276
+
+Removed Songs: 97
+Epsilon: 8
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6186
+Precision: 0.6251
+Recall: 0.6234000000000001
+
+Removed Songs: 48
+Epsilon: 9
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6082000000000001
+Precision: 0.6192
+Recall: 0.617
+
+Removed Songs: 27
+Epsilon: 10
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6128
+Precision: 0.6216999999999999
+Recall: 0.6232
+
+Removed Songs: 16
+Epsilon: 11
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6208000000000001
+Precision: 0.6308
+Recall: 0.6268
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6115999999999999
+Precision: 0.6216000000000002
+Recall: 0.6194000000000001
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6182
+Precision: 0.6264000000000001
+Recall: 0.6255999999999999
+
+Removed Songs: 4
+Epsilon: 14
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6183000000000001
+Precision: 0.6274
+Recall: 0.6251
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 5
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6215
+Precision: 0.6297
+Recall: 0.6291
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 5
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6153
+Precision: 0.6246
+Recall: 0.6237
+
+Removed Songs: 6058
+Epsilon: 2
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6174000000000001
+Precision: 0.6265000000000001
+Recall: 0.6247
+
+Removed Songs: 4050
+Epsilon: 3
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6181000000000001
+Precision: 0.6256
+Recall: 0.6246
+
+Removed Songs: 1769
+Epsilon: 4
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6161000000000001
+Precision: 0.625
+Recall: 0.6238999999999999
+
+Removed Songs: 837
+Epsilon: 5
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6207
+Precision: 0.6264
+Recall: 0.6285999999999999
+
+Removed Songs: 425
+Epsilon: 6
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6186
+Precision: 0.6293
+Recall: 0.6261000000000001
+
+Removed Songs: 215
+Epsilon: 7
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6134
+Precision: 0.6199
+Recall: 0.6186
+
+Removed Songs: 110
+Epsilon: 8
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6130000000000001
+Precision: 0.623
+Recall: 0.6192
+
+Removed Songs: 56
+Epsilon: 9
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6138
+Precision: 0.6231
+Recall: 0.6218
+
+Removed Songs: 33
+Epsilon: 10
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6185
+Precision: 0.6255999999999999
+Recall: 0.6253
+
+Removed Songs: 19
+Epsilon: 11
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6073
+Precision: 0.6158
+Recall: 0.6140000000000001
+
+Removed Songs: 9
+Epsilon: 12
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6174
+Precision: 0.6265
+Recall: 0.6253
+
+Removed Songs: 8
+Epsilon: 13
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.615
+Precision: 0.6237
+Recall: 0.6234
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6167
+Precision: 0.6273
+Recall: 0.6252
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 6
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6144
+Precision: 0.6231
+Recall: 0.6218
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 6
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6176
+Precision: 0.6275000000000001
+Recall: 0.6248000000000001
+
+Removed Songs: 6093
+Epsilon: 2
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['liveness', 'tempo']
+Accuracy: 0.6111
+Precision: 0.6196999999999999
+Recall: 0.6193
+
+Removed Songs: 4532
+Epsilon: 3
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6133
+Precision: 0.6230000000000001
+Recall: 0.6203
+
+Removed Songs: 1994
+Epsilon: 4
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6092
+Precision: 0.6195
+Recall: 0.6175999999999999
+
+Removed Songs: 937
+Epsilon: 5
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6147000000000001
+Precision: 0.6256999999999999
+Recall: 0.6228
+
+Removed Songs: 489
+Epsilon: 6
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6133
+Precision: 0.6228
+Recall: 0.621
+
+Removed Songs: 245
+Epsilon: 7
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6165
+Precision: 0.6261
+Recall: 0.6228
+
+Removed Songs: 135
+Epsilon: 8
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6148
+Precision: 0.6250000000000001
+Recall: 0.6219
+
+Removed Songs: 69
+Epsilon: 9
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6186999999999999
+Precision: 0.6267
+Recall: 0.6245
+
+Removed Songs: 36
+Epsilon: 10
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6194000000000001
+Precision: 0.6296000000000002
+Recall: 0.6256
+
+Removed Songs: 20
+Epsilon: 11
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6192
+Precision: 0.63
+Recall: 0.6256
+
+Removed Songs: 10
+Epsilon: 12
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6188
+Precision: 0.6293000000000001
+Recall: 0.6271
+
+Removed Songs: 9
+Epsilon: 13
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6144000000000001
+Precision: 0.6228
+Recall: 0.6204000000000001
+
+Removed Songs: 6
+Epsilon: 14
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6186
+Precision: 0.6272000000000001
+Recall: 0.627
+
+Removed Songs: 3
+Epsilon: 15
+Min_Points: 7
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: ['loudness']
+Accuracy: 0.6128
+Precision: 0.6209
+Recall: 0.6183
+
+Removed Songs: 3
+Epsilon: 16
+Min_Points: 7
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 8
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6166999999999999
+Precision: 0.6282000000000001
+Recall: 0.6255
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 8
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 6100
+Epsilon: 1
+Min_Points: 9
+Metric: l2
+Colinearity Threashold: 0.8
+Dropped Columns: []
+Accuracy: 0.6193
+Precision: 0.6289
+Recall: 0.6277
+
+Removed Songs: 6100
+Epsilon: 2
+Min_Points: 9
+Metric: l2
+Removed Songs is the Same, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 1
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 2
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 3
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 4
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 5
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 6
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 7
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 8
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Removed Songs: 0
+Epsilon: 1
+Min_Points: 9
+Metric: hamming
+Removed Songs is 0, moving on...
+
+Best Accuracy: 0.6256
+Best Min_points: 3
+Best Epsilon: 15
+Best Metric: cityblock
+Removed Songs: 42

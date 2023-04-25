@@ -47,3 +47,5 @@ def zscore_main():
                 'valence', 'tempo', 'duration_ms']
     data[index_set] = zscore(data[index_set])
     data.to_csv("outlier_removal/automated_zscore_normalised_trackdata.csv", index = False)
+    
+zscore_main()

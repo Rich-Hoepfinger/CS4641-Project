@@ -30,4 +30,6 @@ def dbscan_main(eps, min_points, metric):
         f.write("\nMetric: " + str(metric))
     
     return removed_songs
+
+dbscan_main(eps=14, min_points=5,metric="euclidean")
     

@@ -34,4 +34,6 @@ def remove_collinearity(threshold):
         f.write("\nColinearity Threashold: " + str(threshold))
         f.write("\nDropped Columns: " + str(dropped_columns))
         
-    df.to_csv("automated_collinearity_removed.csv", index = False)
+    df.to_csv("outlier_removal/automated_collinearity_removed.csv", index = False)
+
+remove_collinearity(0.8)
