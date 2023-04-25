@@ -6,18 +6,18 @@ More than 81% of Spotify listeners list personalization or discoverability as th
 Despite this, music genre classification remains a challenging task because of the subjective nature of music genres, varying across cultures and time periods, and the wide variety of sub and hybrid genres. The goal of this project is to employ deep learning and K-nearest neighborss in genre classification using Spotify metadata.
 
 ## Method  
-We will mainly use **neural networks** and **K-nearest neighbors (KNN)** for our project: 
+We will use **neural networks**, **K-nearest neighbors (KNN)**, **decision trees**, and **support vector machines (SVM)** for our project: 
 1. Preprocess the data by normalizing the numeric features to a universal scale. Identify outliers using DB-SCAN. Then, the data is split into training, validation, and testing sets.
 2. Build the model(s). Select an appropriate architecture, and specify the number and size of the layers. We might use techniques such as dropout to prevent overfitting.
 3. Train the model(s). Here, the model will adjust its weights to minimize the categorical cross-entropy loss over the training set, penalizing low probability assignments to the true labels.
 4. Evaluate and compare the model(s)’ performance on the testing set. If unsatisfactory, we will tune its hyperparameters and retrain the model until the desired performance is achieved. 
 
 ### Data Collection and Duplicate Removal
-First, the team created a comprehensive list of genres to be used as classification labels. The genereated list consists of 12 genres: Pop, Hip Hop, Rock, Country, Dance/Electronic, R&B, Metal, Jazz, Reggae, Disco, Folk, Orchestral.
+First, the team created a comprehensive list of genres to be used as classification labels. The generated list consists of 12 genres: Pop, Hip Hop, Rock, Country, Dance/Electronic, R&B, Metal, Jazz, Reggae, Disco, Folk, Orchestral.
 
 The next step is to generate Spotify playlists of around 500 tracks for each of the chosen genres. Each genre was assigned to a team member who would be responsible for compiling tracks that belong to that genre. The created playlists can be found here: [Pop](https://open.spotify.com/playlist/13Cm1hem9RE4v2ZOMJv34T?si=C9qRRpOQT4-tIqZlzERd6w&app_destination=copy-link), [Hip Hop](https://open.spotify.com/playlist/5K9FlaF7V8Ib4X09rl23w6?si=XnauqM5BTiiqvp88B1bDwA&app_destination=copy-link), [Rock](https://open.spotify.com/playlist/5Wk9TcVaNE5yCyli90HmaR?si=7e1c58897b224157), [Country](https://open.spotify.com/playlist/6hjSKEoPqPLPTt3u0e9bLQ?si=0c844e194b8e467f), [Electronic](https://open.spotify.com/playlist/4ZMSlQbw13hExG4ztynNNV?si=1176e787add3496d), [R&B](https://open.spotify.com/playlist/5WJXKWvPeWA9ubmvVsMTBh?si=YQ0Hnol7Q6S7sivtxHAssA&app_destination=copy-link), [Metal](https://open.spotify.com/playlist/2mDXGVXMG4ZMQaR26iZVC7?si=2beae20751ab4364), [Jazz](https://open.spotify.com/playlist/6GrLcuf2cf8g6h8lkZ0h7H?si=3b460ce380ff4ee6), [Reggae](https://open.spotify.com/playlist/6E5Fr9QU6yAety6Y6pw11u?si=28e0d5583c814bb0), [Disco](https://open.spotify.com/playlist/15X96mpCbP1ZiX8WIBqOhO?si=ba46abbe1146480f), [Folk](https://open.spotify.com/playlist/5fEekkUMaM2Le4FL38UuKx?si=b569e2ad8a264b6b), [Orchestral](https://open.spotify.com/playlist/6HGXewRDu4sH2qy8NYnNba?si=e41039b4ee764d3d).
 
-Next, using the Spotify API and the spotipy library in Python, metadata describing each track’s popularity and audio features was extracted from the Spotify API to be used as features in the classification model. A description of each of these features obtained from the Spotify API [[6]](#references) is portrayed below: 
+Next, using the Spotify API and the spotipy library in Python, metadata describing each track’s popularity and audio features was extracted from the Spotify API to be used as features in the classification model. A description of each of these features obtained from the Spotify API [[6]](#references) is portrayed below:
 
 | Feature | Variable Type | Description |
 | --- | ----------- | ---------------|
@@ -36,18 +36,20 @@ Next, using the Spotify API and the spotipy library in Python, metadata describi
 | Duration | numeric int | The duration of the track in milliseconds. |
 | Time Signature | categoric int | An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of "3/4", to "7/4". |
 
-This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found.
+This information was then compiled into a dataframe, with additional information such as the track name and the main artist. A label was also assigned to each track based on which genre playlist it belongs to. Afterwards, the data was further cleaned by checking for duplicates in the data. There were some cases where duplicates of songs occurred because Spotify may have the same track in different albums. These duplicates were removed from the dataset. There were also cases where the same track or song appeared in more than one genre playlist. This was to be expected since many songs do not fit perfectly into a single genre. To resolve this, a definitive genre was decided for each conflict after listening to the track. As a result of these methods, 134 data points were removed, resulting in a final dataframe of 6100 data points. Each data point was also checked for missing values, and none were found. 
 
 ### Removing Outliers with DBSCAN
-While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. To aid in tuning the parameters, a helper method `trial_metric` was set up to test how some of Scikit-learn's various metrics affected the results, iterating across a range of values by brute force. Runs which removed <200 songs were bubble-graphed.
- 
-Through trial and error the Euclidean distance metric with an Epsilon of 5 and minimum Points of 4, based on the following graph:
+Outliers decrease the statistical power of tests we conduct during feature reduction and in training the model. Therefore, DBScan, a clustering algorithm, was used to identify outliers, which were then removed prior to data normalization. 
+
+For outlier detection, it’s important to make sure that the outliers identified are truly anomalous and not sheerly extreme values that are important to genre detection. While DBScan worked on the dataset relatively easily, the difficulty lay in finding a good Epsilon and number of minimum points. These 2 parameters will be kept as hyperparameters for all models and be tuned together with the rest. 
+
+DB-SCAN was tested using several values for epsilon and min points to generate the following graph:
  
 ![Bubble graph of removed songs per Epsilon & Min_Points](Graphs/euclidean.png)
  
-The red bubbles represent parameters which removed over 100 songs, & were judged to remove too many features. Orange bubbles removed under 10 songs, & were therefore ineffective at removing many outliers. Green bubbles are parameter combinations which removed between 10 & 100 songs. Black 'X's are combinations which didn't remove any songs. 
+In the graph above, the size of the circles represent the number of outliers identified to be removed. From this, a reasonable value to use as a starting point for epsilon and minimum points was determined to be 5 and 4, respectively.
 
-These values resulted in 1 cluster and removed 37 songs when applied to the dataset. Based on some testing using the Euclidean metric, higher Epsilon values tend towards creating only 1 cluster. Runs which resulted in several clusters would remove over 200 songs, which is a major truncation of the dataset.
+These values resulted in 1 cluster and removed 37 songs when applied to the dataset.
 
 ### Exploratory Data Visualization
 Below are some visualizations of the data with outliers removed:
@@ -57,7 +59,6 @@ Below are some visualizations of the data with outliers removed:
 Based on the above pie chart, the removal of 37 songs did not significantly affect the equal representation of genres.
 
 ### Normalization
-
 Our dataset consists of numeric and categorical variables. Categorical variables, like key, time signature should be kept as is. Numeric variables are mostly already min-max normalized by Spotify. The only ones left unnormalized are popularity, tempo, and duration(ms). 
 
 3 ways to normalize the data were proposed.
@@ -65,21 +66,19 @@ Our dataset consists of numeric and categorical variables. Categorical variables
 * Z-score: (X - mean)/std. By one sigma from mean, ~68% of data are between 0-1.
 * Softmax: softmax(x_i) = e^(x_i) / sum_j(e^(x_j)). A probability distribution for each class.
 
-For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. 
+For each method, we normalize all numeric variables. It turned out that Z-score was the only normalization method commendable due to higher performance on top of the DB-scanned dataset. Hence, Z-score was chosen as the normalization method for all the generated models.
 
 ### Feature Reduction
 
-In order to further process the data before generating the model(s), feature reduction was attempted. As the first step to feature reduction, the correlation matrix between variables was examined. 
+In order to reduce the time and space complexity of the model(s), feature reduction was conducted. The first step was to check for multicollinearity, and thus the correlation matrix between variables was examined.
 
 <iframe src="Graphs/CorrelationMatrix_zscore.html" width="832" height="519"></iframe>
 
-As a principle, variables were removed until there are no 2 variables having > 0.6 positive/negative correlation with each other. Under inspection, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A deliberate decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6. 
+Using this correlation matrix, features were dropped until all correlation coefficients fell below a specified threshold. It was important to determine the right correlation threshold, as removing a variable could also cause the model performance to worsen. As a starting point, a threshold of 0.6 was selected. Under this threshold of 0.6, there were 3 pairs of variables to fix: Loudness and energy, having correlation of 0.81; energy and acousticness, having correlation of -0.78;  loudness and energy, correlation of -0.69. A decision was made to remove loudness and energy to resolve the 3 pairs. As a result, all collinearity decreased to below 0.6.
 
 <iframe src="Graphs/CorrelationMatrix_removed.html" width="832" height="519"></iframe>
 
-This selection of features did not raise performance compared to DB-Scanned data though. The specific performance is reported and compared in the Metrics section. We are in the progress of trying out other feature reduction methods, like PCA and RFE from scikit-learn. We are also examining the validity of forward/backward selection and searching for available packages.
-
-## Results and Discussion
+### Model Exploration
 
 Metrics from scikit learn : 
 * Accuracy_score : number of correct positives / whole sample  
@@ -89,8 +88,7 @@ shows how many genre classifications were predicted correctly out of all correct
 * Precision_score : true positives / (true positives + false positives)  
 reveals how many genre matches were actually of the correct genre, and was not a false positive
 
-
-As outlined in the methods, the two supervised learning models we chose to use were Neural Networks and K-Nearest Neighbors. Both models were trained on ~4500 songs, and it was tested against ~1500 songs. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres. 
+As outlined in the methods, the supervised learning models we chose to use were Neural Networks, K-Nearest Neighbors, Decision Trees, and Support Vector Machines. All models were trained on ~4500 songs, and it was tested against ~1500 songs. 
 
 The genres were converted to labels on an interval of 0 to 11. These are the label representations : 
 
@@ -111,7 +109,7 @@ The genres were converted to labels on an interval of 0 to 11. These are the lab
 
 **Neural Network (Multi-layer Perceptron)**  : 
 
-After removing any outliers from the original data set, the following is the model’s prediction alongside its metrics.
+After removing outliers from the original data set, the following is the model’s prediction alongside its metrics.
 
 <iframe src="model/images/dbscan/dbNN.png" width="832" height="519"></iframe>
 
@@ -127,7 +125,7 @@ Accuracy: 52.2 %
 Precision: 51.7%
 Recall: 51.8%
 
-Using the reduced data set resulted in similar results. This is when the model was switched to KNN.
+Using the reduced data set resulted in similar results. After poor classification from the Neural Net, there was a pivot to using KNN. The reasoning was that the Neural Net may not have had enough data to accurately predict genres.
 
 **K-Nearest Neighbors** : 
 Using the data set without outliers from performing DBscan, the following is the model prediction and metrics. 
@@ -154,22 +152,86 @@ Although the accuracy was lower, the incorrect predictions align much stronger w
 **Decision Tree** :
 Using the data set with reduced features, the following is the model prediction amd metrics.
 
-<iframe src="model/images/collinearity/dt.png" width="832" height="519"></iframe>
+<iframe src="model/images/collinearity/dt_3.png" width="832" height="519"></iframe>
 
 Accuracy : 45% 
 Precision : 44.9% 
 Recall : 45.2%
 
-After attempting to use Decision Trees as an alternative model, the accuracy was noticeable lower than using a neural network whether that be Multi-Layer Perceptron or K-Nearest Neighors. The accruacy is lower, which suggests that the model is still overfitting some data. Support Vector Machines can help mediate overfitting. 
+After attempting to use Decision Trees as an alternative model, the accuracy was noticeable lower than using a neural network whether that be Multi-Layer Perceptron or K-Nearest Neighors. The accuracy is lower, which suggests that the model is still overfitting some data. Support Vector Machines can help mediate overfitting through the regularization parameter, C. Hence, we attempted SVM on the dataset.
 
 **Support Vector Machine**:
 Using the data set with reduced features, the following is the model prediction and metrics. 
 
-<iframe src="model/images/collinearity/SVM.png" width="832" height="519"></iframe>
+<iframe src="model/images/collinearity/SVM_2.png" width="832" height="519"></iframe>
 
 Accuracy : 59.9% 
 Precision : 58.9% 
 Recall : 59%
+
+This model performs considerably better than the other explored models. Hence, we decided to further pursue this model. To improve the model's performance, hyperparameter tuning was conducted.
+
+### Hyperparameter Tuning
+
+For each of the following parameters, different values (indicated in brackets) were iterated through to obtain the highest testing accuracy.
+
+**DB-SCAN**
+* minPts [range from 1-10]- minimum number of points in neighborhood in DB-SCAN
+* epsilon [range from 1-100] - radius of hypersphere in DB-SCAN
+* distance ["euclidean", "cosine", "cityblock", "l1", "l2", "hamming"] - the distance function used in DB-SCAN
+
+**Feature Reduction**
+* th [0.6, 0.8] - correlation threshold for feature reduction by mutlicollinearity analysis
+
+**Support Vector Machine**
+* kernel [‘poly’, ‘rbf’, ‘sigmoid’] - the kernel type used to transform the data
+* degree [range from 1-10] - if kernel = 'poly', specifies the degree of the polynomial, else changes nothing
+* C [range from 0.1-2.5] - indicates how much incorrect classifications should be penalized
+* break_ties [true, false] - if true, break ties according to confidence values
+
+## Results and Discussion
+
+After tuning, here are the optimal performance metrics and hyperparameters for each model.
+
+**Decision Tree**
+* Removed Songs: 7
+* Epsilon: 19
+* Min_Points: 2
+* Metric: l1
+* Colinearity Threashold: 0.8
+* Dropped Columns: ['loudness']
+* Model: Decision Tree
+* Accuracy: 0.503
+* Precision: 0.499
+* Recall: 0.497
+
+**Neural Networks**
+
+
+**SVM**
+* Removed Songs: 4
+* Epsilon: 14
+* Min Points: 5
+* Metric: euclidean
+* Colinearity Threshold: 0.8
+* Dropped Columns: ['loudness"]
+* Model: SVM
+* Accuracy: 0.639
+* Precision: 0.633
+* Recall: 0.631
+* C: 2.3
+* Kernel: rbf
+* Degree: 3
+* Break Ties: False
+
+
+
+![eps](https://user-images.githubusercontent.com/106047524/234415875-d9830bb1-8aea-4e15-af2e-1159798e38f5.png)
+The effect of $$\epsilon$$ on accuracy 
+
+![min_pts](https://user-images.githubusercontent.com/106047524/234415896-00635724-f0e7-431c-9fd3-cf7f387fcc7a.png)
+
+
 
 ## Project Contributors
 
