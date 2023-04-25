@@ -233,15 +233,26 @@ After tuning, here are the optimal performance metrics and hyperparameters for e
 * Degree: 3
 * Break Ties: False
 
-The optimal model in all 3 metrics is SVM. To reduce the randomness of DBScan results, we ran 10 replications of the DBScan on SVM to tune epsilon and mininum points, with constant C, kernal, degree and break ties. In the following image we plotted the model accuracy against different values of $$\epsilon$$ at the optimal minimum points. 
+The optimal model in all 3 metrics is SVM. To reduce the randomness of DBScan results, we ran 10 replications of the DBScan on SVM to tune epsilon and mininum points, with constant C, kernal, degree and break ties. In the following image we plotted the model accuracy against different values of $\epsilon$ at the optimal minimum points. 
 
 ![eps_10avg](https://user-images.githubusercontent.com/106047524/234424208-6de56890-7859-4fb4-9699-873de80b0791.png)
 
+There is a clear maximum at $\epsilon = 9$. In an attempt to verify the stability of our result, 10 replications were ran again. And we achieved maximum at a different value of $\epsilon$.
+
 ![eps_10avg_2](https://user-images.githubusercontent.com/106047524/234424235-a98585f2-dd53-4866-887c-0bc565153086.png)
+
+The diagram look much different in the 2nd experiment and produces a different optimal $\epsilon$. Since DBScan relies heavily on the initial points, to reduce the randomness incurred by the initialisation, it was decided to increase the replication number to 50. All points will be selected as starting points eventually as replication number goes to infinity. That way we reduce the effect of initialization on a certain point. 
 
 ![eps_avg_50](https://user-images.githubusercontent.com/106047524/234424259-4040c436-82e2-4495-a151-0a0d304650b9.png)
 
+50 replications gave maximum accuracy at $\epsilon = 13$. The crests and troughs are present still. This is a caveat that the dataset may not be 
+
 ![minpts_avg_50](https://user-images.githubusercontent.com/106047524/234424278-91dfc38c-cc97-4a84-911c-46fb4fdb514c.png)
+
+
+Confusion Matrix
+
+![confusionMatrix](https://user-images.githubusercontent.com/106047524/234429329-cfcfa193-e7ec-46f4-8cb1-c1561dd2174b.png)
 
 
 ## Project Contributors
