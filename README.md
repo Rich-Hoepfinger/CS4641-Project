@@ -224,14 +224,15 @@ After tuning, here are the optimal performance metrics and hyperparameters for e
 * Degree: 3
 * Break Ties: False
 
-The optimal model in all 3 metrics is SVM. In the following image we plotted model accuracy with different values of $$\epsilon$$ at the optimal minimum points. 
+The optimal model in all 3 metrics is SVM. To reduce the randomness of DBScan results, we ran 10 replications of the DBScan on SVM to tune epsilon and mininum points, with constant C, kernal, degree and break ties. In the following image we plotted the model accuracy against different values of $$\epsilon$$ at the optimal minimum points. 
 
-![eps](https://user-images.githubusercontent.com/106047524/234415875-d9830bb1-8aea-4e15-af2e-1159798e38f5.png)
+![eps_10avg](https://user-images.githubusercontent.com/106047524/234424208-6de56890-7859-4fb4-9699-873de80b0791.png)
 
+![eps_10avg_2](https://user-images.githubusercontent.com/106047524/234424235-a98585f2-dd53-4866-887c-0bc565153086.png)
 
+![eps_avg_50](https://user-images.githubusercontent.com/106047524/234424259-4040c436-82e2-4495-a151-0a0d304650b9.png)
 
-![min_pts](https://user-images.githubusercontent.com/106047524/234415896-00635724-f0e7-431c-9fd3-cf7f387fcc7a.png)
-
+![minpts_avg_50](https://user-images.githubusercontent.com/106047524/234424278-91dfc38c-cc97-4a84-911c-46fb4fdb514c.png)
 
 
 ## Project Contributors
