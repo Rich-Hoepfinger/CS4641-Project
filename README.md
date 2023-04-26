@@ -252,6 +252,7 @@ The diagram looks much different in the 2nd experiment and produces a different 
 With the same idea, we created a graph of average accuracy over 50 replications against min points. The optimal min points is 3. This aligns with our hyperparameter tuning. 
 
 **Confusion Matrix**
+
 The following confusion matrix was generated for the best model obtained (SVM):
 
 ![confusionMatrix](https://user-images.githubusercontent.com/106047524/234429329-cfcfa193-e7ec-46f4-8cb1-c1561dd2174b.png)
@@ -259,6 +260,7 @@ The following confusion matrix was generated for the best model obtained (SVM):
 The model has lower accuracy in predicting songs belonging to Pop, R&B, and Rock. This makes sense since these genres are often incorporated with other songs, making it difficult to accurately and reliably determine a single genre for those songs. Meanwhile, the model performed the best in predicting the genre for Jazz and Orchestral songs. This also makes sense since these songs tend to sound distinctly different compared to the other included genres.
 
 **Conclusion**
+
 In conclusion, the use of deep learning in our project did not lead to greater accuracy in predicting the genre of songs. It is possible that this could be because of insufficient data. Regardless of this, the best model (SVM) still had a lower than ideal accuracy of around 63%. This indicates that perhaps simply using Spotify metadata may not be sufficient in accurately predicting song genres since no temporal information is included.
 
 ## Project Contributors
